@@ -34,7 +34,7 @@ export default function Footer() {
         </div>
       </div>
       <p className="section-container mt-10 border-t border-white/10 pt-6 text-center text-xs text-slate-400">
-        جميع الحقوق محفوظة © {new Date().getFullYear()} السامي للمقاولات وتأجير الرافعات
+        جميع الحقوق محفوظة 2026 {new Date().getFullYear()} بُنيان للمقاولات وتأجير الرافعات
       </p>
     </footer>
   );
