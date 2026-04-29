@@ -6,10 +6,11 @@ const config: Config = {
     extend: {
       colors: {
         brand: {
-          navy: "#0b1730",
-          dark: "#070d1f",
-          accent: "#f59e0b",
-          light: "#f8fafc"
+          primary: "#006C35",
+          dark: "#004B26",
+          deep: "#06281A",
+          gold: "#C9A227",
+          light: "#F7F8F6"
         }
       },
       boxShadow: {
