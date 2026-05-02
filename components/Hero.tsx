@@ -7,7 +7,7 @@ export default function Hero() {
       className="relative min-h-screen bg-cover bg-center pt-28"
       style={{
         backgroundImage:
-          "linear-gradient(rgba(5,10,25,.82), rgba(5,10,25,.82)), url('D:\00 websites\bunyan\first-pro\public\images\equipment\photo_2026-05-03_01-34-31.jpg')"
+          "linear-gradient(rgba(5,10,25,.82), rgba(5,10,25,.82)), url('/images/hero-bg.jpg')"
       }}
     >
       <div className="section-container flex min-h-[calc(100vh-7rem)] items-center">
