@@ -11,7 +11,7 @@ export default function Hero({ locale }: { locale: Locale }) {
       className="relative min-h-screen bg-cover bg-center pt-28"
       style={{
         backgroundImage:
-          "linear-gradient(rgba(6,40,26,.86), rgba(3,22,15,.88)), url('https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=2000&q=80')"
+          "linear-gradient(rgba(15,23,42,.72), rgba(15,23,42,.82)), url('/images/hero-bg.jpg')"
       }}
     >
       <div className="section-container flex min-h-[calc(100vh-7rem)] items-center">

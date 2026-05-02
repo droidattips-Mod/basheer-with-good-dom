@@ -22,7 +22,10 @@ export type EquipmentItem = {
   nameEn: string;
   descriptionAr: string;
   descriptionEn: string;
+  spec?: string;
+  badge?: string;
   image: string;
+  slug?: string;
 };
 
 export type EquipmentCategory = {

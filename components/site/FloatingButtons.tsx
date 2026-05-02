@@ -1,8 +1,9 @@
 "use client";
 
-import { ChevronUp, MessageCircle } from "lucide-react";
+import Image from "next/image";
+import { ChevronUp } from "lucide-react";
 import { useEffect, useState } from "react";
-import { whatsappMessages } from "@/data/content";
+import { whatsappMessages, WHATSAPP_NUMBER } from "@/data/content";
 import type { Locale } from "@/types/site";
 
 export default function FloatingButtons({ locale }: { locale: Locale }) {
@@ -18,13 +19,13 @@ export default function FloatingButtons({ locale }: { locale: Locale }) {
   return (
     <div className={`fixed bottom-6 z-40 flex flex-col gap-3 ${locale === "ar" ? "left-6" : "right-6"}`}>
       <a
-        href={`https://wa.me/966500000000?text=${whatsappText}`}
+        href={`https://wa.me/${WHATSAPP_NUMBER}?text=${whatsappText}`}
         target="_blank"
         rel="noreferrer"
         className="inline-flex h-12 w-12 items-center justify-center rounded-full bg-[#25D366] text-white shadow-lg"
         aria-label="WhatsApp"
       >
-        <MessageCircle size={20} />
+        <Image src="/whatsapp-icon.svg" alt="" width={30} height={30} />
       </a>
       {showTop && (
         <button

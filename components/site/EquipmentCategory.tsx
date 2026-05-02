@@ -4,24 +4,28 @@ import EquipmentCard from "./EquipmentCard";
 type Props = {
   category: EquipmentCategoryType;
   locale: Locale;
-  availabilityLabel: string;
   requestNowLabel: string;
+  viewAllLabel: string;
 };
 
-export default function EquipmentCategory({ category, locale, availabilityLabel, requestNowLabel }: Props) {
+export default function EquipmentCategory({ category, locale, requestNowLabel, viewAllLabel }: Props) {
   const categoryName = locale === "ar" ? category.nameAr : category.nameEn;
 
   return (
-    <section className="space-y-5">
-      <h3 className="text-2xl font-bold text-[#004B26]">{categoryName}</h3>
-      <div className="grid grid-cols-1 gap-6 md:grid-cols-2 xl:grid-cols-4">
+    <section className="space-y-5 md:space-y-7">
+      <div className="flex items-center justify-between gap-4">
+        <a href="#contact" className="text-sm font-bold text-[#C9A227] transition hover:text-[#8A6A13]">
+          {viewAllLabel} ←
+        </a>
+        <h3 className="text-2xl font-black text-[#111827] md:text-3xl">{categoryName}</h3>
+      </div>
+      <div className="grid grid-cols-2 gap-4 sm:gap-5 lg:grid-cols-3 xl:grid-cols-4">
         {category.items.map((item) => (
           <EquipmentCard
             key={item.id}
             item={item}
             locale={locale}
             categoryLabel={categoryName}
-            availabilityLabel={availabilityLabel}
             requestNowLabel={requestNowLabel}
           />
         ))}

@@ -1,7 +1,9 @@
 "use client";
 
-import { ChevronUp, MessageCircle } from "lucide-react";
+import Image from "next/image";
+import { ChevronUp } from "lucide-react";
 import { useEffect, useState } from "react";
+import { WHATSAPP_NUMBER } from "@/data/content";
 
 export default function FloatingActions() {
   const [showTop, setShowTop] = useState(false);
@@ -15,13 +17,13 @@ export default function FloatingActions() {
   return (
     <div className="fixed bottom-6 left-6 z-40 flex flex-col gap-3">
       <a
-        href="https://wa.me/966500000000"
+        href={`https://wa.me/${WHATSAPP_NUMBER}`}
         target="_blank"
         rel="noreferrer"
         className="inline-flex h-12 w-12 items-center justify-center rounded-full bg-emerald-500 text-white shadow-lg transition hover:bg-emerald-600 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-500"
         aria-label="التواصل عبر واتساب"
       >
-        <MessageCircle size={20} />
+        <Image src="/whatsapp-icon.svg" alt="" width={30} height={30} />
       </a>
 
       {showTop && (

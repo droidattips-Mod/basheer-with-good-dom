@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { Menu, X } from "lucide-react";
 import { useEffect, useState } from "react";
 import type { Locale, NavLink } from "@/types/site";
@@ -24,10 +25,10 @@ export default function Header({ locale, brandName, links, languageLabel }: Prop
   }, []);
 
   return (
-    <header className={`fixed inset-x-0 top-0 z-50 transition ${scrolled ? "bg-[#004B26]/95 shadow-lg backdrop-blur" : "bg-transparent"}`}>
+    <header className={`fixed inset-x-0 top-0 z-50 transition ${scrolled ? "bg-[#111827]/95 shadow-lg backdrop-blur" : "bg-transparent"}`}>
       <div className="section-container flex h-20 items-center justify-between">
-        <a href="#home" className="text-2xl font-extrabold text-white">
-          {brandName}
+        <a href="#home" aria-label={`${brandName} home`} className="shrink-0">
+          <Image src="/logo.png" alt={brandName} width={56} height={56} className="h-14 w-14 rounded-full object-cover" priority />
         </a>
         <nav className="hidden items-center gap-6 md:flex">
           {links.map((link) => (

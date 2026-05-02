@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Bunyan Contracting & Crane Rental",
-  description: "Bilingual contracting and heavy equipment rental website."
+  title: "النصر للمقاولات وتأجير الرافعات",
+  description: "موقع النصر لتأجير الرافعات والمعدات الثقيلة."
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

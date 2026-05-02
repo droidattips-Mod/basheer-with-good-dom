@@ -1,0 +1,1366 @@
+ ⚠ Port 3000 is in use, trying 3001 instead.
+ ⨯ upstream image response failed for https://images.unsplash.com/photo-1717691237260-854f667f7211?auto=format&fit=crop&w=1200&q=80 404
+ ⨯ upstream image response failed for https://images.unsplash.com/photo-1704984218681-3ad04beaf67b?auto=format&fit=crop&w=1200&q=80 404
+ ⨯ upstream image response failed for https://images.unsplash.com/photo-1581093196277-9f608bb3f6ad?auto=format&fit=crop&w=1200&q=80 404
+ ⨯ upstream image response failed for https://images.unsplash.com/photo-1581093588401-22d1b9d7f349?auto=format&fit=crop&w=1200&q=80 404
+ ⨯ upstream image response failed for https://images.unsplash.com/photo-1581093196277-9f608bb3f6ad?auto=format&fit=crop&w=1200&q=80 404
+ ⨯ upstream image response failed for https://images.unsplash.com/photo-1704984218681-3ad04beaf67b?auto=format&fit=crop&w=1200&q=80 404
+ ⨯ upstream image response failed for https://images.unsplash.com/photo-1717691237260-854f667f7211?auto=format&fit=crop&w=1200&q=80 404
+ ⨯ upstream image response failed for https://images.unsplash.com/photo-1581093588401-22d1b9d7f349?auto=format&fit=crop&w=1200&q=80 404
+ ⨯ upstream image response failed for https://images.unsplash.com/photo-1581093196277-9f608bb3f6ad?auto=format&fit=crop&w=1200&q=80 404
+ ⨯ upstream image response failed for https://images.unsplash.com/photo-1581093588401-22d1b9d7f349?auto=format&fit=crop&w=1200&q=80 404
+ ⨯ upstream image response failed for https://images.unsplash.com/photo-1717691237260-854f667f7211?auto=format&fit=crop&w=1200&q=80 404
+ ⨯ upstream image response failed for https://images.unsplash.com/photo-1704984218681-3ad04beaf67b?auto=format&fit=crop&w=1200&q=80 404
+ ⨯ upstream image response failed for https://images.unsplash.com/photo-1717691237260-854f667f7211?auto=format&fit=crop&w=1200&q=80 404
+ ⨯ upstream image response failed for https://images.unsplash.com/photo-1556172732-9f74a277a6f0?auto=format&fit=crop&w=1200&q=80 404
+ ⨯ upstream image response failed for https://images.unsplash.com/photo-1581093196277-9f608bb3f6ad?auto=format&fit=crop&w=1200&q=80 404
+ ⨯ upstream image response failed for https://images.unsplash.com/photo-1581093196277-9f608bb3f6ad?auto=format&fit=crop&w=1200&q=80 404
+ ⨯ upstream image response failed for https://images.unsplash.com/photo-1717691237260-854f667f7211?auto=format&fit=crop&w=1200&q=80 404
+ ⨯ upstream image response failed for https://images.unsplash.com/photo-1556172732-9f74a277a6f0?auto=format&fit=crop&w=1200&q=80 404
+ ⨯ upstream image response failed for https://images.unsplash.com/photo-1704984218681-3ad04beaf67b?auto=format&fit=crop&w=1200&q=80 404
+ ⨯ Failed to generate static paths for /[locale]:
+Error: Cannot find module './vendor-chunks/next.js'
+Require stack:
+- D:\00 websites\bunyan\first-pro\.next\server\webpack-runtime.js
+- D:\00 websites\bunyan\first-pro\.next\server\app\[locale]\page.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\load-components.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\build\utils.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\dev\static-paths-worker.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\compiled\jest-worker\processChild.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1476:15)
+    at D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require-hook.js:55:36
+    at wrapResolveFilename (node:internal/modules/cjs/loader:1049:27)
+    at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1073:10)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1094:12)
+    at Module._load (node:internal/modules/cjs/loader:1262:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1576:12)
+    at mod.require (D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:153:16) {
+  type: 'Error',
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\00 websites\\bunyan\\first-pro\\.next\\server\\webpack-runtime.js',
+    'D:\\00 websites\\bunyan\\first-pro\\.next\\server\\app\\[locale]\\page.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\server\\require.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\server\\load-components.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\build\\utils.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\server\\dev\\static-paths-worker.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\compiled\\jest-worker\\processChild.js'
+  ]
+}
+ ⨯ Error: Cannot find module './vendor-chunks/next.js'
+Require stack:
+- D:\00 websites\bunyan\first-pro\.next\server\webpack-runtime.js
+- D:\00 websites\bunyan\first-pro\.next\server\app\[locale]\page.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\load-components.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\build\utils.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\dev\static-paths-worker.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\compiled\jest-worker\processChild.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1476:15)
+    at D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require-hook.js:55:36
+    at wrapResolveFilename (node:internal/modules/cjs/loader:1049:27)
+    at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1073:10)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1094:12)
+    at Module._load (node:internal/modules/cjs/loader:1262:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1576:12)
+    at mod.require (D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:153:16) {
+  type: 'Error',
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\00 websites\\bunyan\\first-pro\\.next\\server\\webpack-runtime.js',
+    'D:\\00 websites\\bunyan\\first-pro\\.next\\server\\app\\[locale]\\page.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\server\\require.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\server\\load-components.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\build\\utils.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\server\\dev\\static-paths-worker.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\compiled\\jest-worker\\processChild.js'
+  ],
+  page: '/ar'
+}
+ ⨯ Error: Cannot find module './vendor-chunks/lucide-react.js'
+Require stack:
+- D:\00 websites\bunyan\first-pro\.next\server\webpack-runtime.js
+- D:\00 websites\bunyan\first-pro\.next\server\app\[locale]\page.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\load-components.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\build\utils.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\dev\static-paths-worker.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\compiled\jest-worker\processChild.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1476:15)
+    at D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require-hook.js:55:36
+    at wrapResolveFilename (node:internal/modules/cjs/loader:1049:27)
+    at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1073:10)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1094:12)
+    at Module._load (node:internal/modules/cjs/loader:1262:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1576:12)
+    at mod.require (D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:153:16) {
+  type: 'Error',
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\00 websites\\bunyan\\first-pro\\.next\\server\\webpack-runtime.js',
+    'D:\\00 websites\\bunyan\\first-pro\\.next\\server\\app\\[locale]\\page.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\server\\require.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\server\\load-components.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\build\\utils.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\server\\dev\\static-paths-worker.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\compiled\\jest-worker\\processChild.js'
+  ],
+  page: '/ar'
+}
+ ⨯ Error: Cannot find module './vendor-chunks/lucide-react.js'
+Require stack:
+- D:\00 websites\bunyan\first-pro\.next\server\webpack-runtime.js
+- D:\00 websites\bunyan\first-pro\.next\server\app\[locale]\page.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\load-components.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\build\utils.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\dev\static-paths-worker.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\compiled\jest-worker\processChild.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1476:15)
+    at D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require-hook.js:55:36
+    at wrapResolveFilename (node:internal/modules/cjs/loader:1049:27)
+    at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1073:10)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1094:12)
+    at Module._load (node:internal/modules/cjs/loader:1262:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1576:12)
+    at mod.require (D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:153:16) {
+  type: 'Error',
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\00 websites\\bunyan\\first-pro\\.next\\server\\webpack-runtime.js',
+    'D:\\00 websites\\bunyan\\first-pro\\.next\\server\\app\\[locale]\\page.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\server\\require.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\server\\load-components.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\build\\utils.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\server\\dev\\static-paths-worker.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\compiled\\jest-worker\\processChild.js'
+  ],
+  page: '/ar'
+}
+ ⨯ Error: Cannot find module './vendor-chunks/lucide-react.js'
+Require stack:
+- D:\00 websites\bunyan\first-pro\.next\server\webpack-runtime.js
+- D:\00 websites\bunyan\first-pro\.next\server\app\[locale]\page.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\load-components.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\build\utils.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\dev\static-paths-worker.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\compiled\jest-worker\processChild.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1476:15)
+    at D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require-hook.js:55:36
+    at wrapResolveFilename (node:internal/modules/cjs/loader:1049:27)
+    at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1073:10)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1094:12)
+    at Module._load (node:internal/modules/cjs/loader:1262:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1576:12)
+    at mod.require (D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:153:16) {
+  type: 'Error',
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\00 websites\\bunyan\\first-pro\\.next\\server\\webpack-runtime.js',
+    'D:\\00 websites\\bunyan\\first-pro\\.next\\server\\app\\[locale]\\page.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\server\\require.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\server\\load-components.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\build\\utils.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\server\\dev\\static-paths-worker.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\compiled\\jest-worker\\processChild.js'
+  ],
+  page: '/ar'
+}
+ ⨯ Error: Cannot find module './vendor-chunks/lucide-react.js'
+Require stack:
+- D:\00 websites\bunyan\first-pro\.next\server\webpack-runtime.js
+- D:\00 websites\bunyan\first-pro\.next\server\app\[locale]\page.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\load-components.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\build\utils.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\dev\static-paths-worker.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\compiled\jest-worker\processChild.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1476:15)
+    at D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require-hook.js:55:36
+    at wrapResolveFilename (node:internal/modules/cjs/loader:1049:27)
+    at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1073:10)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1094:12)
+    at Module._load (node:internal/modules/cjs/loader:1262:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1576:12)
+    at mod.require (D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:153:16) {
+  type: 'Error',
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\00 websites\\bunyan\\first-pro\\.next\\server\\webpack-runtime.js',
+    'D:\\00 websites\\bunyan\\first-pro\\.next\\server\\app\\[locale]\\page.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\server\\require.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\server\\load-components.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\build\\utils.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\server\\dev\\static-paths-worker.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\compiled\\jest-worker\\processChild.js'
+  ],
+  page: '/ar'
+}
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, lstat 'D:\00 websites\bunyan\first-pro\.next\server\vendor-chunks\lucide-react.js'
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving './vendor-chunks/lucide-react' in D:\00 websites\bunyan\first-pro\.next\server for build dependencies doesn't lead to expected result 'D:\00 websites\bunyan\first-pro\.next\server\vendor-chunks\lucide-react.js', but to 'Error: Can't resolve './vendor-chunks/lucide-react' in 'D:\00 websites\bunyan\first-pro\.next\server'' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ./vendor-chunks/lucide-react (expected D:\00 websites\bunyan\first-pro\.next\server\vendor-chunks\lucide-react.js)
+<w>  at file dependencies D:\00 websites\bunyan\first-pro\.next\server\webpack-runtime.js
+<w>  at file D:\00 websites\bunyan\first-pro\.next\server\webpack-runtime.js
+<w>  at file dependencies D:\00 websites\bunyan\first-pro\.next\server\pages\_error.js
+<w>  at file D:\00 websites\bunyan\first-pro\.next\server\pages\_error.js
+<w>  at file dependencies D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require.js
+<w>  at file D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require.js
+<w>  at file dependencies D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\load-components.js
+<w>  at file D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\load-components.js
+<w>  at file dependencies D:\00 websites\bunyan\first-pro\node_modules\next\dist\build\utils.js
+<w>  at file D:\00 websites\bunyan\first-pro\node_modules\next\dist\build\utils.js
+<w>  at file dependencies D:\00 websites\bunyan\first-pro\node_modules\next\dist\build\entries.js
+<w>  at file D:\00 websites\bunyan\first-pro\node_modules\next\dist\build\entries.js
+<w>  at file dependencies D:\00 websites\bunyan\first-pro\node_modules\next\dist\build\webpack\plugins\next-types-plugin\index.js
+<w>  at file D:\00 websites\bunyan\first-pro\node_modules\next\dist\build\webpack\plugins\next-types-plugin\index.js
+<w>  at file dependencies D:\00 websites\bunyan\first-pro\node_modules\next\dist\build\webpack-config.js
+<w>  at file D:\00 websites\bunyan\first-pro\node_modules\next\dist\build\webpack-config.js
+<w>  at file dependencies D:\00 websites\bunyan\first-pro\node_modules\next\dist\build\webpack\loaders\next-swc-loader.js
+<w>  at file D:\00 websites\bunyan\first-pro\node_modules\next\dist\build\webpack\loaders\next-swc-loader.js
+<w>  at resolve commonjs D:\00 websites\bunyan\first-pro\node_modules\next\dist\build\webpack\loaders\next-swc-loader.js
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, lstat 'D:\00 websites\bunyan\first-pro\.next\server\vendor-chunks\lucide-react.js'
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving './vendor-chunks/lucide-react' in D:\00 websites\bunyan\first-pro\.next\server for build dependencies doesn't lead to expected result 'D:\00 websites\bunyan\first-pro\.next\server\vendor-chunks\lucide-react.js', but to 'Error: Can't resolve './vendor-chunks/lucide-react' in 'D:\00 websites\bunyan\first-pro\.next\server'' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ./vendor-chunks/lucide-react (expected D:\00 websites\bunyan\first-pro\.next\server\vendor-chunks\lucide-react.js)
+<w>  at file dependencies D:\00 websites\bunyan\first-pro\.next\server\webpack-runtime.js
+<w>  at file D:\00 websites\bunyan\first-pro\.next\server\webpack-runtime.js
+<w>  at file dependencies D:\00 websites\bunyan\first-pro\.next\server\app\[locale]\page.js
+<w>  at file D:\00 websites\bunyan\first-pro\.next\server\app\[locale]\page.js
+<w>  at file dependencies D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require.js
+<w>  at file D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require.js
+<w>  at file dependencies D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\load-components.js
+<w>  at file D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\load-components.js
+<w>  at file dependencies D:\00 websites\bunyan\first-pro\node_modules\next\dist\build\utils.js
+<w>  at file D:\00 websites\bunyan\first-pro\node_modules\next\dist\build\utils.js
+<w>  at file dependencies D:\00 websites\bunyan\first-pro\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w>  at file D:\00 websites\bunyan\first-pro\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w>  at resolve commonjs D:\00 websites\bunyan\first-pro\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving '../../../../.next/server/app/page' in D:\00 websites\bunyan\first-pro\node_modules\next\dist\server for build dependencies doesn't lead to expected result 'D:\00 websites\bunyan\first-pro\.next\server\app\page.js', but to 'Error: Can't resolve '../../../../.next/server/app/page' in 'D:\00 websites\bunyan\first-pro\node_modules\next\dist\server'' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ../../../../.next/server/app/page (expected D:\00 websites\bunyan\first-pro\.next\server\app\page.js)
+<w>  at file dependencies D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require.js
+<w>  at file D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require.js
+<w>  at file dependencies D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\load-components.js
+<w>  at file D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\load-components.js
+<w>  at file dependencies D:\00 websites\bunyan\first-pro\node_modules\next\dist\build\utils.js
+<w>  at file D:\00 websites\bunyan\first-pro\node_modules\next\dist\build\utils.js
+<w>  at file dependencies D:\00 websites\bunyan\first-pro\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w>  at file D:\00 websites\bunyan\first-pro\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w>  at resolve commonjs D:\00 websites\bunyan\first-pro\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ⨯ Error: Cannot find module './vendor-chunks/lucide-react.js'
+Require stack:
+- D:\00 websites\bunyan\first-pro\.next\server\webpack-runtime.js
+- D:\00 websites\bunyan\first-pro\.next\server\app\[locale]\page.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\load-components.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\build\utils.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\dev\static-paths-worker.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\compiled\jest-worker\processChild.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1476:15)
+    at D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require-hook.js:55:36
+    at wrapResolveFilename (node:internal/modules/cjs/loader:1049:27)
+    at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1073:10)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1094:12)
+    at Module._load (node:internal/modules/cjs/loader:1262:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1576:12)
+    at mod.require (D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:153:16) {
+  type: 'Error',
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\00 websites\\bunyan\\first-pro\\.next\\server\\webpack-runtime.js',
+    'D:\\00 websites\\bunyan\\first-pro\\.next\\server\\app\\[locale]\\page.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\server\\require.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\server\\load-components.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\build\\utils.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\server\\dev\\static-paths-worker.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\compiled\\jest-worker\\processChild.js'
+  ],
+  page: '/ar'
+}
+ ⨯ Error: Cannot find module './vendor-chunks/lucide-react.js'
+Require stack:
+- D:\00 websites\bunyan\first-pro\.next\server\webpack-runtime.js
+- D:\00 websites\bunyan\first-pro\.next\server\app\[locale]\page.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\load-components.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\build\utils.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\dev\static-paths-worker.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\compiled\jest-worker\processChild.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1476:15)
+    at D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require-hook.js:55:36
+    at wrapResolveFilename (node:internal/modules/cjs/loader:1049:27)
+    at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1073:10)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1094:12)
+    at Module._load (node:internal/modules/cjs/loader:1262:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1576:12)
+    at mod.require (D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:153:16) {
+  type: 'Error',
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\00 websites\\bunyan\\first-pro\\.next\\server\\webpack-runtime.js',
+    'D:\\00 websites\\bunyan\\first-pro\\.next\\server\\app\\[locale]\\page.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\server\\require.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\server\\load-components.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\build\\utils.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\server\\dev\\static-paths-worker.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\compiled\\jest-worker\\processChild.js'
+  ],
+  page: '/ar'
+}
+ ⨯ Error: Cannot find module './vendor-chunks/lucide-react.js'
+Require stack:
+- D:\00 websites\bunyan\first-pro\.next\server\webpack-runtime.js
+- D:\00 websites\bunyan\first-pro\.next\server\app\[locale]\page.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\load-components.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\build\utils.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\dev\static-paths-worker.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\compiled\jest-worker\processChild.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1476:15)
+    at D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require-hook.js:55:36
+    at wrapResolveFilename (node:internal/modules/cjs/loader:1049:27)
+    at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1073:10)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1094:12)
+    at Module._load (node:internal/modules/cjs/loader:1262:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1576:12)
+    at mod.require (D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:153:16) {
+  type: 'Error',
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\00 websites\\bunyan\\first-pro\\.next\\server\\webpack-runtime.js',
+    'D:\\00 websites\\bunyan\\first-pro\\.next\\server\\app\\[locale]\\page.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\server\\require.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\server\\load-components.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\build\\utils.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\server\\dev\\static-paths-worker.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\compiled\\jest-worker\\processChild.js'
+  ],
+  page: '/ar'
+}
+ ⨯ Error: Cannot find module './vendor-chunks/lucide-react.js'
+Require stack:
+- D:\00 websites\bunyan\first-pro\.next\server\webpack-runtime.js
+- D:\00 websites\bunyan\first-pro\.next\server\app\[locale]\page.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\load-components.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\build\utils.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\dev\static-paths-worker.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\compiled\jest-worker\processChild.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1476:15)
+    at D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require-hook.js:55:36
+    at wrapResolveFilename (node:internal/modules/cjs/loader:1049:27)
+    at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1073:10)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1094:12)
+    at Module._load (node:internal/modules/cjs/loader:1262:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1576:12)
+    at mod.require (D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:153:16) {
+  type: 'Error',
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\00 websites\\bunyan\\first-pro\\.next\\server\\webpack-runtime.js',
+    'D:\\00 websites\\bunyan\\first-pro\\.next\\server\\app\\[locale]\\page.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\server\\require.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\server\\load-components.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\build\\utils.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\server\\dev\\static-paths-worker.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\compiled\\jest-worker\\processChild.js'
+  ],
+  page: '/ar'
+}
+ ⨯ Error: Cannot find module './vendor-chunks/lucide-react.js'
+Require stack:
+- D:\00 websites\bunyan\first-pro\.next\server\webpack-runtime.js
+- D:\00 websites\bunyan\first-pro\.next\server\app\[locale]\page.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\load-components.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\build\utils.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\dev\static-paths-worker.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\compiled\jest-worker\processChild.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1476:15)
+    at D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require-hook.js:55:36
+    at wrapResolveFilename (node:internal/modules/cjs/loader:1049:27)
+    at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1073:10)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1094:12)
+    at Module._load (node:internal/modules/cjs/loader:1262:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1576:12)
+    at mod.require (D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:153:16) {
+  type: 'Error',
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\00 websites\\bunyan\\first-pro\\.next\\server\\webpack-runtime.js',
+    'D:\\00 websites\\bunyan\\first-pro\\.next\\server\\app\\[locale]\\page.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\server\\require.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\server\\load-components.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\build\\utils.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\server\\dev\\static-paths-worker.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\compiled\\jest-worker\\processChild.js'
+  ],
+  page: '/ar'
+}
+ ⨯ Error: Cannot find module './vendor-chunks/lucide-react.js'
+Require stack:
+- D:\00 websites\bunyan\first-pro\.next\server\webpack-runtime.js
+- D:\00 websites\bunyan\first-pro\.next\server\app\[locale]\page.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\load-components.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\build\utils.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\dev\static-paths-worker.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\compiled\jest-worker\processChild.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1476:15)
+    at D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require-hook.js:55:36
+    at wrapResolveFilename (node:internal/modules/cjs/loader:1049:27)
+    at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1073:10)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1094:12)
+    at Module._load (node:internal/modules/cjs/loader:1262:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1576:12)
+    at mod.require (D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:153:16) {
+  type: 'Error',
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\00 websites\\bunyan\\first-pro\\.next\\server\\webpack-runtime.js',
+    'D:\\00 websites\\bunyan\\first-pro\\.next\\server\\app\\[locale]\\page.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\server\\require.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\server\\load-components.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\build\\utils.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\server\\dev\\static-paths-worker.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\compiled\\jest-worker\\processChild.js'
+  ],
+  page: '/favicon.ico'
+}
+ ⨯ Error: Cannot find module './vendor-chunks/lucide-react.js'
+Require stack:
+- D:\00 websites\bunyan\first-pro\.next\server\webpack-runtime.js
+- D:\00 websites\bunyan\first-pro\.next\server\app\[locale]\page.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\load-components.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\build\utils.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\dev\static-paths-worker.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\compiled\jest-worker\processChild.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1476:15)
+    at D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require-hook.js:55:36
+    at wrapResolveFilename (node:internal/modules/cjs/loader:1049:27)
+    at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1073:10)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1094:12)
+    at Module._load (node:internal/modules/cjs/loader:1262:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1576:12)
+    at mod.require (D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:153:16) {
+  type: 'Error',
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\00 websites\\bunyan\\first-pro\\.next\\server\\webpack-runtime.js',
+    'D:\\00 websites\\bunyan\\first-pro\\.next\\server\\app\\[locale]\\page.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\server\\require.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\server\\load-components.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\build\\utils.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\server\\dev\\static-paths-worker.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\compiled\\jest-worker\\processChild.js'
+  ],
+  page: '/favicon.ico'
+}
+ ⨯ Error: Cannot find module './vendor-chunks/lucide-react.js'
+Require stack:
+- D:\00 websites\bunyan\first-pro\.next\server\webpack-runtime.js
+- D:\00 websites\bunyan\first-pro\.next\server\app\[locale]\page.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\load-components.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\build\utils.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\dev\static-paths-worker.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\compiled\jest-worker\processChild.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1476:15)
+    at D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require-hook.js:55:36
+    at wrapResolveFilename (node:internal/modules/cjs/loader:1049:27)
+    at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1073:10)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1094:12)
+    at Module._load (node:internal/modules/cjs/loader:1262:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1576:12)
+    at mod.require (D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:153:16) {
+  type: 'Error',
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\00 websites\\bunyan\\first-pro\\.next\\server\\webpack-runtime.js',
+    'D:\\00 websites\\bunyan\\first-pro\\.next\\server\\app\\[locale]\\page.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\server\\require.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\server\\load-components.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\build\\utils.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\server\\dev\\static-paths-worker.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\compiled\\jest-worker\\processChild.js'
+  ],
+  page: '/favicon.ico'
+}
+ ⨯ Error: Cannot find module './vendor-chunks/lucide-react.js'
+Require stack:
+- D:\00 websites\bunyan\first-pro\.next\server\webpack-runtime.js
+- D:\00 websites\bunyan\first-pro\.next\server\app\[locale]\page.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\load-components.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\build\utils.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\dev\static-paths-worker.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\compiled\jest-worker\processChild.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1476:15)
+    at D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require-hook.js:55:36
+    at wrapResolveFilename (node:internal/modules/cjs/loader:1049:27)
+    at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1073:10)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1094:12)
+    at Module._load (node:internal/modules/cjs/loader:1262:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1576:12)
+    at mod.require (D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:153:16) {
+  type: 'Error',
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\00 websites\\bunyan\\first-pro\\.next\\server\\webpack-runtime.js',
+    'D:\\00 websites\\bunyan\\first-pro\\.next\\server\\app\\[locale]\\page.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\server\\require.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\server\\load-components.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\build\\utils.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\server\\dev\\static-paths-worker.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\compiled\\jest-worker\\processChild.js'
+  ],
+  page: '/ar'
+}
+ ⨯ Error: Cannot find module './vendor-chunks/lucide-react.js'
+Require stack:
+- D:\00 websites\bunyan\first-pro\.next\server\webpack-runtime.js
+- D:\00 websites\bunyan\first-pro\.next\server\app\[locale]\page.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\load-components.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\build\utils.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\dev\static-paths-worker.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\compiled\jest-worker\processChild.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1476:15)
+    at D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require-hook.js:55:36
+    at wrapResolveFilename (node:internal/modules/cjs/loader:1049:27)
+    at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1073:10)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1094:12)
+    at Module._load (node:internal/modules/cjs/loader:1262:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1576:12)
+    at mod.require (D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:153:16) {
+  type: 'Error',
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\00 websites\\bunyan\\first-pro\\.next\\server\\webpack-runtime.js',
+    'D:\\00 websites\\bunyan\\first-pro\\.next\\server\\app\\[locale]\\page.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\server\\require.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\server\\load-components.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\build\\utils.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\server\\dev\\static-paths-worker.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\compiled\\jest-worker\\processChild.js'
+  ],
+  page: '/ar'
+}
+ ⨯ Error: Cannot find module './vendor-chunks/lucide-react.js'
+Require stack:
+- D:\00 websites\bunyan\first-pro\.next\server\webpack-runtime.js
+- D:\00 websites\bunyan\first-pro\.next\server\app\[locale]\page.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\load-components.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\build\utils.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\dev\static-paths-worker.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\compiled\jest-worker\processChild.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1476:15)
+    at D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require-hook.js:55:36
+    at wrapResolveFilename (node:internal/modules/cjs/loader:1049:27)
+    at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1073:10)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1094:12)
+    at Module._load (node:internal/modules/cjs/loader:1262:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1576:12)
+    at mod.require (D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:153:16) {
+  type: 'Error',
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\00 websites\\bunyan\\first-pro\\.next\\server\\webpack-runtime.js',
+    'D:\\00 websites\\bunyan\\first-pro\\.next\\server\\app\\[locale]\\page.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\server\\require.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\server\\load-components.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\build\\utils.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\server\\dev\\static-paths-worker.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\compiled\\jest-worker\\processChild.js'
+  ],
+  page: '/favicon.ico'
+}
+ ⨯ Error: Cannot find module './vendor-chunks/lucide-react.js'
+Require stack:
+- D:\00 websites\bunyan\first-pro\.next\server\webpack-runtime.js
+- D:\00 websites\bunyan\first-pro\.next\server\app\[locale]\page.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\load-components.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\build\utils.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\dev\static-paths-worker.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\compiled\jest-worker\processChild.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1476:15)
+    at D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require-hook.js:55:36
+    at wrapResolveFilename (node:internal/modules/cjs/loader:1049:27)
+    at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1073:10)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1094:12)
+    at Module._load (node:internal/modules/cjs/loader:1262:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1576:12)
+    at mod.require (D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:153:16) {
+  type: 'Error',
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\00 websites\\bunyan\\first-pro\\.next\\server\\webpack-runtime.js',
+    'D:\\00 websites\\bunyan\\first-pro\\.next\\server\\app\\[locale]\\page.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\server\\require.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\server\\load-components.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\build\\utils.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\server\\dev\\static-paths-worker.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\compiled\\jest-worker\\processChild.js'
+  ],
+  page: '/favicon.ico'
+}
+ ⨯ Error: Cannot find module './vendor-chunks/lucide-react.js'
+Require stack:
+- D:\00 websites\bunyan\first-pro\.next\server\webpack-runtime.js
+- D:\00 websites\bunyan\first-pro\.next\server\app\[locale]\page.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\load-components.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\build\utils.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\dev\static-paths-worker.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\compiled\jest-worker\processChild.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1476:15)
+    at D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require-hook.js:55:36
+    at wrapResolveFilename (node:internal/modules/cjs/loader:1049:27)
+    at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1073:10)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1094:12)
+    at Module._load (node:internal/modules/cjs/loader:1262:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1576:12)
+    at mod.require (D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:153:16) {
+  type: 'Error',
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\00 websites\\bunyan\\first-pro\\.next\\server\\webpack-runtime.js',
+    'D:\\00 websites\\bunyan\\first-pro\\.next\\server\\app\\[locale]\\page.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\server\\require.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\server\\load-components.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\build\\utils.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\server\\dev\\static-paths-worker.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\compiled\\jest-worker\\processChild.js'
+  ],
+  page: '/favicon.ico'
+}
+ ⨯ Error: Cannot find module './vendor-chunks/lucide-react.js'
+Require stack:
+- D:\00 websites\bunyan\first-pro\.next\server\webpack-runtime.js
+- D:\00 websites\bunyan\first-pro\.next\server\app\[locale]\page.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\load-components.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\build\utils.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\dev\static-paths-worker.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\compiled\jest-worker\processChild.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1476:15)
+    at D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require-hook.js:55:36
+    at wrapResolveFilename (node:internal/modules/cjs/loader:1049:27)
+    at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1073:10)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1094:12)
+    at Module._load (node:internal/modules/cjs/loader:1262:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1576:12)
+    at mod.require (D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:153:16) {
+  type: 'Error',
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\00 websites\\bunyan\\first-pro\\.next\\server\\webpack-runtime.js',
+    'D:\\00 websites\\bunyan\\first-pro\\.next\\server\\app\\[locale]\\page.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\server\\require.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\server\\load-components.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\build\\utils.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\server\\dev\\static-paths-worker.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\compiled\\jest-worker\\processChild.js'
+  ],
+  page: '/ar'
+}
+ ⨯ Error: Cannot find module './vendor-chunks/lucide-react.js'
+Require stack:
+- D:\00 websites\bunyan\first-pro\.next\server\webpack-runtime.js
+- D:\00 websites\bunyan\first-pro\.next\server\app\[locale]\page.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\load-components.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\build\utils.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\dev\static-paths-worker.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\compiled\jest-worker\processChild.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1476:15)
+    at D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require-hook.js:55:36
+    at wrapResolveFilename (node:internal/modules/cjs/loader:1049:27)
+    at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1073:10)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1094:12)
+    at Module._load (node:internal/modules/cjs/loader:1262:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1576:12)
+    at mod.require (D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:153:16) {
+  type: 'Error',
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\00 websites\\bunyan\\first-pro\\.next\\server\\webpack-runtime.js',
+    'D:\\00 websites\\bunyan\\first-pro\\.next\\server\\app\\[locale]\\page.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\server\\require.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\server\\load-components.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\build\\utils.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\server\\dev\\static-paths-worker.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\compiled\\jest-worker\\processChild.js'
+  ],
+  page: '/ar'
+}
+ ⨯ Error: Cannot find module './vendor-chunks/lucide-react.js'
+Require stack:
+- D:\00 websites\bunyan\first-pro\.next\server\webpack-runtime.js
+- D:\00 websites\bunyan\first-pro\.next\server\app\[locale]\page.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\load-components.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\build\utils.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\dev\static-paths-worker.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\compiled\jest-worker\processChild.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1476:15)
+    at D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require-hook.js:55:36
+    at wrapResolveFilename (node:internal/modules/cjs/loader:1049:27)
+    at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1073:10)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1094:12)
+    at Module._load (node:internal/modules/cjs/loader:1262:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1576:12)
+    at mod.require (D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:153:16) {
+  type: 'Error',
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\00 websites\\bunyan\\first-pro\\.next\\server\\webpack-runtime.js',
+    'D:\\00 websites\\bunyan\\first-pro\\.next\\server\\app\\[locale]\\page.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\server\\require.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\server\\load-components.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\build\\utils.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\server\\dev\\static-paths-worker.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\compiled\\jest-worker\\processChild.js'
+  ],
+  page: '/favicon.ico'
+}
+ ⨯ Error: Cannot find module './vendor-chunks/lucide-react.js'
+Require stack:
+- D:\00 websites\bunyan\first-pro\.next\server\webpack-runtime.js
+- D:\00 websites\bunyan\first-pro\.next\server\app\[locale]\page.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\load-components.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\build\utils.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\dev\static-paths-worker.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\compiled\jest-worker\processChild.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1476:15)
+    at D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require-hook.js:55:36
+    at wrapResolveFilename (node:internal/modules/cjs/loader:1049:27)
+    at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1073:10)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1094:12)
+    at Module._load (node:internal/modules/cjs/loader:1262:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1576:12)
+    at mod.require (D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:153:16) {
+  type: 'Error',
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\00 websites\\bunyan\\first-pro\\.next\\server\\webpack-runtime.js',
+    'D:\\00 websites\\bunyan\\first-pro\\.next\\server\\app\\[locale]\\page.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\server\\require.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\server\\load-components.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\build\\utils.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\server\\dev\\static-paths-worker.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\compiled\\jest-worker\\processChild.js'
+  ],
+  page: '/favicon.ico'
+}
+ ⨯ Error: Cannot find module './vendor-chunks/lucide-react.js'
+Require stack:
+- D:\00 websites\bunyan\first-pro\.next\server\webpack-runtime.js
+- D:\00 websites\bunyan\first-pro\.next\server\app\[locale]\page.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\load-components.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\build\utils.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\dev\static-paths-worker.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\compiled\jest-worker\processChild.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1476:15)
+    at D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require-hook.js:55:36
+    at wrapResolveFilename (node:internal/modules/cjs/loader:1049:27)
+    at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1073:10)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1094:12)
+    at Module._load (node:internal/modules/cjs/loader:1262:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1576:12)
+    at mod.require (D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:153:16) {
+  type: 'Error',
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\00 websites\\bunyan\\first-pro\\.next\\server\\webpack-runtime.js',
+    'D:\\00 websites\\bunyan\\first-pro\\.next\\server\\app\\[locale]\\page.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\server\\require.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\server\\load-components.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\build\\utils.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\server\\dev\\static-paths-worker.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\compiled\\jest-worker\\processChild.js'
+  ],
+  page: '/favicon.ico'
+}
+ ⨯ Error: Cannot find module './vendor-chunks/lucide-react.js'
+Require stack:
+- D:\00 websites\bunyan\first-pro\.next\server\webpack-runtime.js
+- D:\00 websites\bunyan\first-pro\.next\server\app\[locale]\page.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\load-components.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\build\utils.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\dev\static-paths-worker.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\compiled\jest-worker\processChild.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1476:15)
+    at D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require-hook.js:55:36
+    at wrapResolveFilename (node:internal/modules/cjs/loader:1049:27)
+    at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1073:10)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1094:12)
+    at Module._load (node:internal/modules/cjs/loader:1262:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1576:12)
+    at mod.require (D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:153:16) {
+  type: 'Error',
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\00 websites\\bunyan\\first-pro\\.next\\server\\webpack-runtime.js',
+    'D:\\00 websites\\bunyan\\first-pro\\.next\\server\\app\\[locale]\\page.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\server\\require.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\server\\load-components.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\build\\utils.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\server\\dev\\static-paths-worker.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\compiled\\jest-worker\\processChild.js'
+  ],
+  page: '/ar'
+}
+ ⨯ Error: Cannot find module './vendor-chunks/lucide-react.js'
+Require stack:
+- D:\00 websites\bunyan\first-pro\.next\server\webpack-runtime.js
+- D:\00 websites\bunyan\first-pro\.next\server\app\[locale]\page.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\load-components.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\build\utils.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\dev\static-paths-worker.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\compiled\jest-worker\processChild.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1476:15)
+    at D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require-hook.js:55:36
+    at wrapResolveFilename (node:internal/modules/cjs/loader:1049:27)
+    at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1073:10)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1094:12)
+    at Module._load (node:internal/modules/cjs/loader:1262:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1576:12)
+    at mod.require (D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:153:16) {
+  type: 'Error',
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\00 websites\\bunyan\\first-pro\\.next\\server\\webpack-runtime.js',
+    'D:\\00 websites\\bunyan\\first-pro\\.next\\server\\app\\[locale]\\page.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\server\\require.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\server\\load-components.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\build\\utils.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\server\\dev\\static-paths-worker.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\compiled\\jest-worker\\processChild.js'
+  ],
+  page: '/ar'
+}
+ ⨯ Error: Cannot find module './vendor-chunks/lucide-react.js'
+Require stack:
+- D:\00 websites\bunyan\first-pro\.next\server\webpack-runtime.js
+- D:\00 websites\bunyan\first-pro\.next\server\app\[locale]\page.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\load-components.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\build\utils.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\dev\static-paths-worker.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\compiled\jest-worker\processChild.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1476:15)
+    at D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require-hook.js:55:36
+    at wrapResolveFilename (node:internal/modules/cjs/loader:1049:27)
+    at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1073:10)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1094:12)
+    at Module._load (node:internal/modules/cjs/loader:1262:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1576:12)
+    at mod.require (D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:153:16) {
+  type: 'Error',
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\00 websites\\bunyan\\first-pro\\.next\\server\\webpack-runtime.js',
+    'D:\\00 websites\\bunyan\\first-pro\\.next\\server\\app\\[locale]\\page.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\server\\require.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\server\\load-components.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\build\\utils.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\server\\dev\\static-paths-worker.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\compiled\\jest-worker\\processChild.js'
+  ],
+  page: '/favicon.ico'
+}
+ ⨯ Error: Cannot find module './vendor-chunks/lucide-react.js'
+Require stack:
+- D:\00 websites\bunyan\first-pro\.next\server\webpack-runtime.js
+- D:\00 websites\bunyan\first-pro\.next\server\app\[locale]\page.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\load-components.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\build\utils.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\dev\static-paths-worker.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\compiled\jest-worker\processChild.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1476:15)
+    at D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require-hook.js:55:36
+    at wrapResolveFilename (node:internal/modules/cjs/loader:1049:27)
+    at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1073:10)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1094:12)
+    at Module._load (node:internal/modules/cjs/loader:1262:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1576:12)
+    at mod.require (D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:153:16) {
+  type: 'Error',
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\00 websites\\bunyan\\first-pro\\.next\\server\\webpack-runtime.js',
+    'D:\\00 websites\\bunyan\\first-pro\\.next\\server\\app\\[locale]\\page.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\server\\require.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\server\\load-components.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\build\\utils.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\server\\dev\\static-paths-worker.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\compiled\\jest-worker\\processChild.js'
+  ],
+  page: '/favicon.ico'
+}
+ ⨯ Error: Cannot find module './vendor-chunks/lucide-react.js'
+Require stack:
+- D:\00 websites\bunyan\first-pro\.next\server\webpack-runtime.js
+- D:\00 websites\bunyan\first-pro\.next\server\app\[locale]\page.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\load-components.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\build\utils.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\dev\static-paths-worker.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\compiled\jest-worker\processChild.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1476:15)
+    at D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require-hook.js:55:36
+    at wrapResolveFilename (node:internal/modules/cjs/loader:1049:27)
+    at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1073:10)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1094:12)
+    at Module._load (node:internal/modules/cjs/loader:1262:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1576:12)
+    at mod.require (D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:153:16) {
+  type: 'Error',
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\00 websites\\bunyan\\first-pro\\.next\\server\\webpack-runtime.js',
+    'D:\\00 websites\\bunyan\\first-pro\\.next\\server\\app\\[locale]\\page.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\server\\require.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\server\\load-components.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\build\\utils.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\server\\dev\\static-paths-worker.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\compiled\\jest-worker\\processChild.js'
+  ],
+  page: '/favicon.ico'
+}
+ ⨯ Error: Cannot find module './vendor-chunks/lucide-react.js'
+Require stack:
+- D:\00 websites\bunyan\first-pro\.next\server\webpack-runtime.js
+- D:\00 websites\bunyan\first-pro\.next\server\app\[locale]\page.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\load-components.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\build\utils.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\dev\static-paths-worker.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\compiled\jest-worker\processChild.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1476:15)
+    at D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require-hook.js:55:36
+    at wrapResolveFilename (node:internal/modules/cjs/loader:1049:27)
+    at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1073:10)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1094:12)
+    at Module._load (node:internal/modules/cjs/loader:1262:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1576:12)
+    at mod.require (D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:153:16) {
+  type: 'Error',
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\00 websites\\bunyan\\first-pro\\.next\\server\\webpack-runtime.js',
+    'D:\\00 websites\\bunyan\\first-pro\\.next\\server\\app\\[locale]\\page.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\server\\require.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\server\\load-components.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\build\\utils.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\server\\dev\\static-paths-worker.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\compiled\\jest-worker\\processChild.js'
+  ],
+  page: '/ar'
+}
+ ⨯ Error: Cannot find module './vendor-chunks/lucide-react.js'
+Require stack:
+- D:\00 websites\bunyan\first-pro\.next\server\webpack-runtime.js
+- D:\00 websites\bunyan\first-pro\.next\server\app\[locale]\page.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\load-components.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\build\utils.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\dev\static-paths-worker.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\compiled\jest-worker\processChild.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1476:15)
+    at D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require-hook.js:55:36
+    at wrapResolveFilename (node:internal/modules/cjs/loader:1049:27)
+    at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1073:10)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1094:12)
+    at Module._load (node:internal/modules/cjs/loader:1262:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1576:12)
+    at mod.require (D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:153:16) {
+  type: 'Error',
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\00 websites\\bunyan\\first-pro\\.next\\server\\webpack-runtime.js',
+    'D:\\00 websites\\bunyan\\first-pro\\.next\\server\\app\\[locale]\\page.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\server\\require.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\server\\load-components.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\build\\utils.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\server\\dev\\static-paths-worker.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\compiled\\jest-worker\\processChild.js'
+  ],
+  page: '/ar'
+}
+ ⨯ Error: Cannot find module './vendor-chunks/lucide-react.js'
+Require stack:
+- D:\00 websites\bunyan\first-pro\.next\server\webpack-runtime.js
+- D:\00 websites\bunyan\first-pro\.next\server\app\[locale]\page.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\load-components.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\build\utils.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\dev\static-paths-worker.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\compiled\jest-worker\processChild.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1476:15)
+    at D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require-hook.js:55:36
+    at wrapResolveFilename (node:internal/modules/cjs/loader:1049:27)
+    at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1073:10)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1094:12)
+    at Module._load (node:internal/modules/cjs/loader:1262:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1576:12)
+    at mod.require (D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:153:16) {
+  type: 'Error',
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\00 websites\\bunyan\\first-pro\\.next\\server\\webpack-runtime.js',
+    'D:\\00 websites\\bunyan\\first-pro\\.next\\server\\app\\[locale]\\page.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\server\\require.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\server\\load-components.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\build\\utils.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\server\\dev\\static-paths-worker.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\compiled\\jest-worker\\processChild.js'
+  ],
+  page: '/favicon.ico'
+}
+ ⨯ Error: Cannot find module './vendor-chunks/lucide-react.js'
+Require stack:
+- D:\00 websites\bunyan\first-pro\.next\server\webpack-runtime.js
+- D:\00 websites\bunyan\first-pro\.next\server\app\[locale]\page.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\load-components.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\build\utils.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\dev\static-paths-worker.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\compiled\jest-worker\processChild.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1476:15)
+    at D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require-hook.js:55:36
+    at wrapResolveFilename (node:internal/modules/cjs/loader:1049:27)
+    at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1073:10)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1094:12)
+    at Module._load (node:internal/modules/cjs/loader:1262:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1576:12)
+    at mod.require (D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:153:16) {
+  type: 'Error',
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\00 websites\\bunyan\\first-pro\\.next\\server\\webpack-runtime.js',
+    'D:\\00 websites\\bunyan\\first-pro\\.next\\server\\app\\[locale]\\page.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\server\\require.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\server\\load-components.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\build\\utils.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\server\\dev\\static-paths-worker.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\compiled\\jest-worker\\processChild.js'
+  ],
+  page: '/favicon.ico'
+}
+ ⨯ Error: Cannot find module './vendor-chunks/lucide-react.js'
+Require stack:
+- D:\00 websites\bunyan\first-pro\.next\server\webpack-runtime.js
+- D:\00 websites\bunyan\first-pro\.next\server\app\[locale]\page.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\load-components.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\build\utils.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\dev\static-paths-worker.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\compiled\jest-worker\processChild.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1476:15)
+    at D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require-hook.js:55:36
+    at wrapResolveFilename (node:internal/modules/cjs/loader:1049:27)
+    at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1073:10)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1094:12)
+    at Module._load (node:internal/modules/cjs/loader:1262:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1576:12)
+    at mod.require (D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:153:16) {
+  type: 'Error',
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\00 websites\\bunyan\\first-pro\\.next\\server\\webpack-runtime.js',
+    'D:\\00 websites\\bunyan\\first-pro\\.next\\server\\app\\[locale]\\page.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\server\\require.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\server\\load-components.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\build\\utils.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\server\\dev\\static-paths-worker.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\compiled\\jest-worker\\processChild.js'
+  ],
+  page: '/favicon.ico'
+}
+ ⨯ Error: Cannot find module './vendor-chunks/lucide-react.js'
+Require stack:
+- D:\00 websites\bunyan\first-pro\.next\server\webpack-runtime.js
+- D:\00 websites\bunyan\first-pro\.next\server\app\[locale]\page.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\load-components.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\build\utils.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\dev\static-paths-worker.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\compiled\jest-worker\processChild.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1476:15)
+    at D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require-hook.js:55:36
+    at wrapResolveFilename (node:internal/modules/cjs/loader:1049:27)
+    at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1073:10)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1094:12)
+    at Module._load (node:internal/modules/cjs/loader:1262:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1576:12)
+    at mod.require (D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:153:16) {
+  type: 'Error',
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\00 websites\\bunyan\\first-pro\\.next\\server\\webpack-runtime.js',
+    'D:\\00 websites\\bunyan\\first-pro\\.next\\server\\app\\[locale]\\page.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\server\\require.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\server\\load-components.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\build\\utils.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\server\\dev\\static-paths-worker.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\compiled\\jest-worker\\processChild.js'
+  ],
+  page: '/ar'
+}
+ ⨯ Error: Cannot find module './vendor-chunks/lucide-react.js'
+Require stack:
+- D:\00 websites\bunyan\first-pro\.next\server\webpack-runtime.js
+- D:\00 websites\bunyan\first-pro\.next\server\app\[locale]\page.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\load-components.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\build\utils.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\dev\static-paths-worker.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\compiled\jest-worker\processChild.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1476:15)
+    at D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require-hook.js:55:36
+    at wrapResolveFilename (node:internal/modules/cjs/loader:1049:27)
+    at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1073:10)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1094:12)
+    at Module._load (node:internal/modules/cjs/loader:1262:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1576:12)
+    at mod.require (D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:153:16) {
+  type: 'Error',
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\00 websites\\bunyan\\first-pro\\.next\\server\\webpack-runtime.js',
+    'D:\\00 websites\\bunyan\\first-pro\\.next\\server\\app\\[locale]\\page.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\server\\require.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\server\\load-components.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\build\\utils.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\server\\dev\\static-paths-worker.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\compiled\\jest-worker\\processChild.js'
+  ],
+  page: '/ar'
+}
+ ⨯ Error: Cannot find module './vendor-chunks/lucide-react.js'
+Require stack:
+- D:\00 websites\bunyan\first-pro\.next\server\webpack-runtime.js
+- D:\00 websites\bunyan\first-pro\.next\server\app\[locale]\page.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\load-components.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\build\utils.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\dev\static-paths-worker.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\compiled\jest-worker\processChild.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1476:15)
+    at D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require-hook.js:55:36
+    at wrapResolveFilename (node:internal/modules/cjs/loader:1049:27)
+    at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1073:10)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1094:12)
+    at Module._load (node:internal/modules/cjs/loader:1262:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1576:12)
+    at mod.require (D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:153:16) {
+  type: 'Error',
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\00 websites\\bunyan\\first-pro\\.next\\server\\webpack-runtime.js',
+    'D:\\00 websites\\bunyan\\first-pro\\.next\\server\\app\\[locale]\\page.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\server\\require.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\server\\load-components.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\build\\utils.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\server\\dev\\static-paths-worker.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\compiled\\jest-worker\\processChild.js'
+  ],
+  page: '/favicon.ico'
+}
+ ⨯ Error: Cannot find module './vendor-chunks/lucide-react.js'
+Require stack:
+- D:\00 websites\bunyan\first-pro\.next\server\webpack-runtime.js
+- D:\00 websites\bunyan\first-pro\.next\server\app\[locale]\page.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\load-components.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\build\utils.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\dev\static-paths-worker.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\compiled\jest-worker\processChild.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1476:15)
+    at D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require-hook.js:55:36
+    at wrapResolveFilename (node:internal/modules/cjs/loader:1049:27)
+    at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1073:10)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1094:12)
+    at Module._load (node:internal/modules/cjs/loader:1262:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1576:12)
+    at mod.require (D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:153:16) {
+  type: 'Error',
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\00 websites\\bunyan\\first-pro\\.next\\server\\webpack-runtime.js',
+    'D:\\00 websites\\bunyan\\first-pro\\.next\\server\\app\\[locale]\\page.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\server\\require.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\server\\load-components.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\build\\utils.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\server\\dev\\static-paths-worker.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\compiled\\jest-worker\\processChild.js'
+  ],
+  page: '/favicon.ico'
+}
+ ⨯ Error: Cannot find module './vendor-chunks/lucide-react.js'
+Require stack:
+- D:\00 websites\bunyan\first-pro\.next\server\webpack-runtime.js
+- D:\00 websites\bunyan\first-pro\.next\server\app\[locale]\page.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\load-components.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\build\utils.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\dev\static-paths-worker.js
+- D:\00 websites\bunyan\first-pro\node_modules\next\dist\compiled\jest-worker\processChild.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1476:15)
+    at D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require-hook.js:55:36
+    at wrapResolveFilename (node:internal/modules/cjs/loader:1049:27)
+    at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1073:10)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1094:12)
+    at Module._load (node:internal/modules/cjs/loader:1262:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1576:12)
+    at mod.require (D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:153:16) {
+  type: 'Error',
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\00 websites\\bunyan\\first-pro\\.next\\server\\webpack-runtime.js',
+    'D:\\00 websites\\bunyan\\first-pro\\.next\\server\\app\\[locale]\\page.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\server\\require.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\server\\load-components.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\build\\utils.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\server\\dev\\static-paths-worker.js',
+    'D:\\00 websites\\bunyan\\first-pro\\node_modules\\next\\dist\\compiled\\jest-worker\\processChild.js'
+  ],
+  page: '/favicon.ico'
+}
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, lstat 'D:\00 websites\bunyan\first-pro\.next\server\vendor-chunks\lucide-react.js'
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving './vendor-chunks/lucide-react' in D:\00 websites\bunyan\first-pro\.next\server for build dependencies doesn't lead to expected result 'D:\00 websites\bunyan\first-pro\.next\server\vendor-chunks\lucide-react.js', but to 'Error: Can't resolve './vendor-chunks/lucide-react' in 'D:\00 websites\bunyan\first-pro\.next\server'' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ./vendor-chunks/lucide-react (expected D:\00 websites\bunyan\first-pro\.next\server\vendor-chunks\lucide-react.js)
+<w>  at file dependencies D:\00 websites\bunyan\first-pro\.next\server\webpack-runtime.js
+<w>  at file D:\00 websites\bunyan\first-pro\.next\server\webpack-runtime.js
+<w>  at file dependencies D:\00 websites\bunyan\first-pro\.next\server\pages\_error.js
+<w>  at file D:\00 websites\bunyan\first-pro\.next\server\pages\_error.js
+<w>  at file dependencies D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require.js
+<w>  at file D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require.js
+<w>  at file dependencies D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\load-components.js
+<w>  at file D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\load-components.js
+<w>  at file dependencies D:\00 websites\bunyan\first-pro\node_modules\next\dist\build\utils.js
+<w>  at file D:\00 websites\bunyan\first-pro\node_modules\next\dist\build\utils.js
+<w>  at file dependencies D:\00 websites\bunyan\first-pro\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w>  at file D:\00 websites\bunyan\first-pro\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w>  at resolve commonjs D:\00 websites\bunyan\first-pro\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, lstat 'D:\00 websites\bunyan\first-pro\.next\server\vendor-chunks\lucide-react.js'
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving './vendor-chunks/lucide-react' in D:\00 websites\bunyan\first-pro\.next\server for build dependencies doesn't lead to expected result 'D:\00 websites\bunyan\first-pro\.next\server\vendor-chunks\lucide-react.js', but to 'Error: Can't resolve './vendor-chunks/lucide-react' in 'D:\00 websites\bunyan\first-pro\.next\server'' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ./vendor-chunks/lucide-react (expected D:\00 websites\bunyan\first-pro\.next\server\vendor-chunks\lucide-react.js)
+<w>  at file dependencies D:\00 websites\bunyan\first-pro\.next\server\webpack-runtime.js
+<w>  at file D:\00 websites\bunyan\first-pro\.next\server\webpack-runtime.js
+<w>  at file dependencies D:\00 websites\bunyan\first-pro\.next\server\pages\_error.js
+<w>  at file D:\00 websites\bunyan\first-pro\.next\server\pages\_error.js
+<w>  at file dependencies D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require.js
+<w>  at file D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\require.js
+<w>  at file dependencies D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\load-components.js
+<w>  at file D:\00 websites\bunyan\first-pro\node_modules\next\dist\server\load-components.js
+<w>  at file dependencies D:\00 websites\bunyan\first-pro\node_modules\next\dist\build\utils.js
+<w>  at file D:\00 websites\bunyan\first-pro\node_modules\next\dist\build\utils.js
+<w>  at file dependencies D:\00 websites\bunyan\first-pro\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w>  at file D:\00 websites\bunyan\first-pro\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w>  at file dependencies D:\00 websites\bunyan\first-pro\node_modules\next\dist\compiled\loader-runner\LoaderRunner.js
+<w>  at file D:\00 websites\bunyan\first-pro\node_modules\next\dist\compiled\loader-runner\LoaderRunner.js
+<w>  at file dependencies D:\00 websites\bunyan\first-pro\node_modules\next\dist\compiled\webpack\bundle5.js
+<w>  at file D:\00 websites\bunyan\first-pro\node_modules\next\dist\compiled\webpack\bundle5.js
+<w>  at file dependencies D:\00 websites\bunyan\first-pro\node_modules\next\dist\compiled\webpack\webpack.js
+<w>  at file D:\00 websites\bunyan\first-pro\node_modules\next\dist\compiled\webpack\webpack.js
+<w>  at file dependencies D:\00 websites\bunyan\first-pro\node_modules\next\dist\build\webpack\plugins\define-env-plugin.js
+<w>  at file D:\00 websites\bunyan\first-pro\node_modules\next\dist\build\webpack\plugins\define-env-plugin.js
+<w>  at file dependencies D:\00 websites\bunyan\first-pro\node_modules\next\dist\build\swc\index.js
+<w>  at file D:\00 websites\bunyan\first-pro\node_modules\next\dist\build\swc\index.js
+<w>  at file dependencies D:\00 websites\bunyan\first-pro\node_modules\next\dist\build\webpack\loaders\next-barrel-loader.js
+<w>  at file D:\00 websites\bunyan\first-pro\node_modules\next\dist\build\webpack\loaders\next-barrel-loader.js
+<w>  at resolve commonjs D:\00 websites\bunyan\first-pro\node_modules\next\dist\build\webpack\loaders\next-barrel-loader.js
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename 'D:\00 websites\bunyan\first-pro\.next\cache\webpack\client-development\4.pack.gz_' -> 'D:\00 websites\bunyan\first-pro\.next\cache\webpack\client-development\4.pack.gz'

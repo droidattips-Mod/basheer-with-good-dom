@@ -1,0 +1,116 @@
+
+> alsami-crane-rental@1.0.0 dev
+> next dev
+
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3001
+
+ ✓ Starting...
+ ✓ Ready in 3.4s
+ ○ Compiling / ...
+ ✓ Compiled / in 6.3s (460 modules)
+ GET / 307 in 6576ms
+ ○ Compiling /[locale] ...
+ ✓ Compiled /[locale] in 6.2s (573 modules)
+ GET /ar 200 in 7348ms
+ GET / 307 in 86ms
+ GET /ar 200 in 257ms
+ GET /favicon.ico 404 in 130ms
+ ✓ Compiled in 1669ms (571 modules)
+ ✓ Compiled in 537ms (571 modules)
+ ✓ Compiled in 435ms (571 modules)
+ ✓ Compiled in 370ms (571 modules)
+ ✓ Compiled in 598ms (571 modules)
+ ✓ Compiled in 454ms (571 modules)
+ ✓ Compiled in 346ms (569 modules)
+ ✓ Compiled in 993ms (571 modules)
+ ✓ Compiled in 494ms (571 modules)
+ ✓ Compiled in 309ms (571 modules)
+ ✓ Compiled in 368ms (571 modules)
+ ✓ Compiled in 378ms (571 modules)
+ ✓ Compiled in 272ms (571 modules)
+ ✓ Compiled in 247ms (272 modules)
+ ✓ Compiled in 360ms (571 modules)
+ ✓ Compiled in 376ms (272 modules)
+ ✓ Compiled in 342ms (272 modules)
+ ✓ Compiled in 285ms (272 modules)
+ ✓ Compiled in 179ms (272 modules)
+ ✓ Compiled in 184ms (272 modules)
+ ✓ Compiled in 452ms (557 modules)
+ GET /ar 200 in 236ms
+ GET /ar 200 in 139ms
+ GET /ar 200 in 146ms
+ ✓ Compiled /_not-found in 423ms (560 modules)
+ GET /ar 404 in 558ms
+ GET /_next/static/css/app/layout.css?v=1777739778923 404 in 67ms
+ GET /_next/static/chunks/main-app.js?v=1777739778923 404 in 32ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 32ms
+ GET /favicon.ico 404 in 135ms
+ ○ Compiling /_error ...
+ ✓ Compiled /_error in 2.6s (787 modules)
+ GET /ar 500 in 3647ms
+ GET /ar 500 in 431ms
+ GET /ar 500 in 536ms
+ ✓ Compiled in 2.3s (798 modules)
+ GET /ar 200 in 35ms
+ GET /ar 500 in 2497ms
+ GET /ar 500 in 2496ms
+ GET /favicon.ico 500 in 29ms
+ GET /ar 500 in 806ms
+ GET /favicon.ico 500 in 566ms
+ ✓ Compiled in 612ms (798 modules)
+ GET /ar 500 in 652ms
+ GET /ar 500 in 658ms
+ GET /favicon.ico 500 in 237ms
+ GET /ar 500 in 708ms
+ GET /favicon.ico 500 in 478ms
+ ✓ Compiled in 556ms (798 modules)
+ GET /ar 500 in 663ms
+ GET /ar 500 in 666ms
+ GET /favicon.ico 500 in 228ms
+ GET /ar 500 in 689ms
+ GET /favicon.ico 500 in 508ms
+ ✓ Compiled in 459ms (798 modules)
+ GET /ar 500 in 606ms
+ GET /ar 500 in 615ms
+ GET /favicon.ico 500 in 278ms
+ GET /ar 500 in 742ms
+ GET /favicon.ico 500 in 462ms
+ ✓ Compiled in 547ms (798 modules)
+ GET /ar 500 in 676ms
+ GET /ar 500 in 688ms
+ GET /favicon.ico 500 in 232ms
+ GET /ar 500 in 696ms
+ GET /favicon.ico 500 in 445ms
+ ✓ Compiled in 706ms (798 modules)
+ GET /ar 500 in 659ms
+ GET /ar 500 in 664ms
+ GET /favicon.ico 500 in 267ms
+ GET /ar 500 in 772ms
+ GET /favicon.ico 500 in 479ms
+ ✓ Compiled in 1813ms (458 modules)
+ ✓ Compiled in 216ms (458 modules)
+ ✓ Compiled in 296ms (458 modules)
+ ✓ Compiled in 224ms (458 modules)
+ ✓ Compiled in 387ms (458 modules)
+ ✓ Compiled in 2.6s (798 modules)
+ ✓ Compiled in 715ms (798 modules)
+ ✓ Compiled in 1070ms (798 modules)
+ ✓ Compiled in 596ms (798 modules)
+ ✓ Compiled in 596ms (798 modules)
+ ✓ Compiled in 1841ms (798 modules)
+ ✓ Compiled in 727ms (798 modules)
+ ✓ Compiled in 2.5s (798 modules)
+ ✓ Compiled in 322ms (458 modules)
+ ✓ Compiled in 2.2s (838 modules)
+ ✓ Compiled in 257ms (477 modules)
+ ✓ Compiled in 332ms (477 modules)
+ ✓ Compiled in 338ms (477 modules)
+ ✓ Compiled in 244ms (477 modules)
+ ✓ Compiled in 221ms (477 modules)
+ ✓ Compiled in 325ms (477 modules)
+ ✓ Compiled in 525ms (477 modules)
+ ✓ Compiled in 1378ms (477 modules)
+ ✓ Compiled in 307ms (477 modules)
+ ✓ Compiled in 542ms (838 modules)
+ ✓ Compiled in 587ms (838 modules)

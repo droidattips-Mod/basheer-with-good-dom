@@ -1,3 +1,4 @@
+import { DISPLAY_EMAIL, DISPLAY_PHONE } from "@/data/content";
 import { navLinks } from "@/data/siteData";
 
 export default function Footer() {
@@ -5,10 +6,8 @@ export default function Footer() {
     <footer className="bg-brand-dark py-16 text-slate-200">
       <div className="section-container grid gap-10 md:grid-cols-3">
         <div>
-          <p className="text-2xl font-bold text-white">السامي للمقاولات وتأجير الرافعات</p>
-          <p className="mt-4 max-w-sm text-sm leading-7 text-slate-300">
-            نقدم خدمات تأجير المعدات والرافعات للمشاريع الإنشائية والصناعية مع التزام كامل بالجودة والسلامة.
-          </p>
+          <p className="text-2xl font-bold text-white">النصر للمقاولات وتأجير الرافعات</p>
+          <p className="mt-4 max-w-sm text-sm leading-7 text-slate-300">نقدم خدمات تأجير المعدات والرافعات للمشاريع الإنشائية والصناعية مع التزام كامل بالجودة والسلامة.</p>
         </div>
 
         <div>
@@ -27,15 +26,13 @@ export default function Footer() {
         <div>
           <h4 className="text-lg font-bold text-white">معلومات التواصل</h4>
           <ul className="mt-4 space-y-2 text-sm">
-            <li>الهاتف: 0500000000</li>
-            <li>البريد: info@example.com</li>
+            <li>الهاتف: {DISPLAY_PHONE}</li>
+            <li>البريد: {DISPLAY_EMAIL}</li>
             <li>الموقع: المملكة العربية السعودية</li>
           </ul>
         </div>
       </div>
-      <p className="section-container mt-10 border-t border-white/10 pt-6 text-center text-xs text-slate-400">
-        جميع الحقوق محفوظة 2026 {new Date().getFullYear()} بُنيان للمقاولات وتأجير الرافعات
-      </p>
+      <p className="section-container mt-10 border-t border-white/10 pt-6 text-center text-xs text-slate-400">جميع الحقوق محفوظة © {new Date().getFullYear()} النصر للمقاولات وتأجير الرافعات</p>
     </footer>
   );
 }

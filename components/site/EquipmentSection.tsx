@@ -6,21 +6,21 @@ export default function EquipmentSection({ locale }: { locale: Locale }) {
   const t = translations[locale].equipment;
 
   return (
-    <section id="equipment" className="py-20">
+    <section id="equipment" className="bg-white py-12 md:py-20">
       <div className="section-container">
-        <div className="mx-auto mb-12 max-w-4xl rounded-3xl bg-[#004B26] p-8 text-center text-white">
-          <span className="gold-label">{t.label}</span>
-          <h2 className="text-3xl font-extrabold md:text-4xl">{t.title}</h2>
-          <p className="mt-3 text-white/90">{t.subtitle}</p>
+        <div className="mx-auto mb-14 max-w-4xl rounded-[18px] bg-[#111827] p-7 text-center text-white shadow-[0_10px_22px_rgba(15,23,42,0.22)] md:p-10">
+          <span className="mb-3 block text-sm font-black text-[#C9A227]">{t.label}</span>
+          <h2 className="text-3xl font-black md:text-5xl">{t.title}</h2>
+          <p className="mx-auto mt-4 max-w-2xl text-sm leading-7 text-white/75 md:text-lg">{t.subtitle}</p>
         </div>
-        <div className="space-y-10">
+        <div className="mx-auto max-w-5xl space-y-16 md:space-y-20">
           {equipmentCategories.map((category) => (
             <EquipmentCategory
               key={category.id}
               category={category}
               locale={locale}
-              availabilityLabel={t.availability}
               requestNowLabel={t.requestNow}
+              viewAllLabel={t.viewAll}
             />
           ))}
         </div>

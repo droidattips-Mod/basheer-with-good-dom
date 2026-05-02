@@ -1,7 +1,9 @@
 "use client";
 
 import { FormEvent, useState } from "react";
-import { MessageCircle, PhoneCall } from "lucide-react";
+import Image from "next/image";
+import { PhoneCall } from "lucide-react";
+import { DISPLAY_EMAIL, DISPLAY_PHONE, WHATSAPP_NUMBER } from "@/data/content";
 
 export default function ContactForm() {
   const [isSubmitted, setIsSubmitted] = useState(false);
@@ -56,21 +58,17 @@ export default function ContactForm() {
             </button>
           </form>
 
-          {isSubmitted && (
-            <p className="mt-4 rounded-xl bg-emerald-100 p-3 text-sm font-semibold text-emerald-700">
-              تم إرسال طلبك بنجاح. سنتواصل معك قريباً.
-            </p>
-          )}
+          {isSubmitted && <p className="mt-4 rounded-xl bg-emerald-100 p-3 text-sm font-semibold text-emerald-700">تم إرسال طلبك بنجاح. سنتواصل معك قريباً.</p>}
         </div>
 
         <div className="rounded-2xl bg-brand-navy p-8 text-white shadow-soft">
           <h3 className="text-3xl font-bold">تواصل معنا الآن</h3>
           <div className="mt-8 space-y-5 text-slate-200">
             <p>
-              <span className="font-semibold text-white">الهاتف:</span> 0500000000
+              <span className="font-semibold text-white">الهاتف:</span> {DISPLAY_PHONE}
             </p>
             <p>
-              <span className="font-semibold text-white">البريد:</span> info@example.com
+              <span className="font-semibold text-white">البريد:</span> {DISPLAY_EMAIL}
             </p>
             <p>
               <span className="font-semibold text-white">الموقع:</span> المملكة العربية السعودية
@@ -79,18 +77,15 @@ export default function ContactForm() {
 
           <div className="mt-8 flex flex-wrap gap-3">
             <a
-              href="https://wa.me/966500000000"
+              href={`https://wa.me/${WHATSAPP_NUMBER}`}
               target="_blank"
               rel="noreferrer"
               className="inline-flex items-center gap-2 rounded-xl bg-amber-500 px-6 py-3 font-semibold text-slate-950 transition hover:bg-amber-400 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-400"
             >
-              <MessageCircle size={18} />
+              <Image src="/whatsapp-icon.svg" alt="WhatsApp" width={20} height={20} />
               تواصل عبر واتساب
             </a>
-            <a
-              href="tel:0500000000"
-              className="inline-flex items-center gap-2 rounded-xl border border-white/30 px-6 py-3 font-semibold text-white transition hover:bg-white/10"
-            >
+            <a href="tel:0558204317" className="inline-flex items-center gap-2 rounded-xl border border-white/30 px-6 py-3 font-semibold text-white transition hover:bg-white/10">
               <PhoneCall size={18} />
               اتصال مباشر
             </a>
