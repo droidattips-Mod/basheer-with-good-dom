@@ -23,8 +23,8 @@ export async function generateMetadata({
   }
 
   return {
-    title: "Al Nasr Contracting & Crane Rental | Cranes & Heavy Equipment Rental",
-    description: `Al Nasr provides crane and heavy equipment rental across Saudi Arabia. Phone: ${DISPLAY_PHONE}, email: ${DISPLAY_EMAIL}.`
+    title: "Al Nasr Cranes | Light & Heavy Equipment Rental",
+    description: `Al Nasr Cranes provides Light and heavy equipment rental across Saudi Arabia. Phone: ${DISPLAY_PHONE}, email: ${DISPLAY_EMAIL}.`
   };
 }
 

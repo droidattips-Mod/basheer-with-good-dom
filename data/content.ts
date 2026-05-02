@@ -75,9 +75,9 @@ export const translations: Record<Locale, LocaleContent> = {
       { id: "contact", href: "#contact", label: "اتصل بنا" }
     ],
     hero: {
-      title: "النصر للمقاولات وتأجير الرافعات",
-      highlight: "تأجير الرافعات والمعدات الثقيلة",
-      subtitle: "نوفر حلول تأجير الرافعات والمعدات الثقيلة للمشاريع الإنشائية والصناعية بكفاءة وأمان في جميع أنحاء المملكة العربية السعودية.",
+      title: "رافعات النصر",
+      highlight: "لتأجير جميع واحدث المعدات الثقيلة والخفيفة",
+      subtitle: "نقدم خدمات تأجير المعدات بأسطول متطور يشمل الثقيلة والخفيفة، جاهز لدعم مشاريعك بأداء قوي، سرعة استجابة، واعتمادية تضمن لك التفوق في كل مرحلة.",
       browseCta: "تصفح المعدات",
       contactCta: "اتصل بنا الآن"
     },
@@ -130,10 +130,10 @@ export const translations: Record<Locale, LocaleContent> = {
       whatsapp: "تواصل عبر واتساب"
     },
     footer: {
-      title: "النصر للمقاولات وتأجير الرافعات",
+      title: "رافعات النصر",
       description: "حلول موثوقة في تأجير الرافعات والمعدات الثقيلة للمشاريع الإنشائية والصناعية.",
       linksTitle: "روابط سريعة",
-      copyright: "جميع الحقوق محفوظة © النصر"
+      copyright: "جميع الحقوق محفوظة © رافعات النصر 2026"
     },
     languageSwitchLabel: "English"
   },
@@ -148,9 +148,9 @@ export const translations: Record<Locale, LocaleContent> = {
       { id: "contact", href: "#contact", label: "Contact Us" }
     ],
     hero: {
-      title: "Al Nasr Contracting & Crane Rental",
-      highlight: "Crane & Heavy Equipment Rental",
-      subtitle: "Reliable crane and heavy equipment rental for construction and industrial projects across Saudi Arabia.",
+      title: "Al Nasr Cranes",
+      highlight: "Rental Services for the Latest Heavy and Light Equipment",
+      subtitle: "We provide equipment rental solutions through a modern fleet of heavy and light equipment, ready to support your projects with high performance, rapid response, and the reliability you need to excel at every stage.",
       browseCta: "Browse Equipment",
       contactCta: "Contact Us Now"
     },
@@ -183,7 +183,7 @@ export const translations: Record<Locale, LocaleContent> = {
     about: {
       label: "About Al Nasr",
       title: "About Us",
-      text: "Al Nasr Contracting & Crane Rental is a Saudi company specialized in crane and heavy equipment rental with reliable machines and qualified operation teams.",
+      text: "Al Nasr Cranes is a Saudi company specialized in crane and heavy equipment rental with reliable machines and qualified operation teams.",
       points: ["Modern ready-to-work equipment", "Commitment to safety and quality", "Coverage across Saudi Arabia"]
     },
     contact: {
@@ -203,10 +203,10 @@ export const translations: Record<Locale, LocaleContent> = {
       whatsapp: "Contact via WhatsApp"
     },
     footer: {
-      title: "Al Nasr Contracting & Crane Rental",
+      title: "Al Nasr Cranes",
       description: "Reliable crane and heavy equipment rental solutions for construction and industrial projects.",
       linksTitle: "Quick Links",
-      copyright: "All rights reserved © Al Nasr"
+      copyright: "©2026 AL Nasr Cranes. All rights reserved."
     },
     languageSwitchLabel: "العربية"
   }
