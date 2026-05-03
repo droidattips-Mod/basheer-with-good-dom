@@ -323,6 +323,6 @@ export const contactInfo: ContactInfo = {
 };
 
 export const whatsappMessages: Record<Locale, string> = {
-  ar: "مرحباً، أود الاستفسار عن تأجير الرافعات والمعدات من شركة النصر.",
+  ar: "مرحباً، أود الاستفسار عن تأجير الرافعات والمعدات من شركة رافعات النصر.",
   en: "Hello, I would like to inquire about crane and equipment rental from Al Nasr."
 };
