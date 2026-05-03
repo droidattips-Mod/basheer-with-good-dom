@@ -108,9 +108,9 @@ export const translations: Record<Locale, LocaleContent> = {
       cta: "عرض التفاصيل"
     },
     about: {
-      label: "عن النصر",
+      label: "عن رافعات النصر",
       title: "من نحن",
-      text: "النصر للمقاولات وتأجير الرافعات شركة سعودية متخصصة في تأجير الرافعات والمعدات الثقيلة ودعم المشاريع بمعدات موثوقة وفرق تشغيل مؤهلة.",
+      text: "رافعات النصرشركة سعودية متخصصة في تأجير الرافعات والمعدات الثقيلة ودعم المشاريع بمعدات موثوقة وفرق تشغيل مؤهلة.",
       points: ["معدات حديثة وجاهزة للعمل", "التزام بالسلامة والجودة", "تغطية لمختلف مناطق المملكة"]
     },
     contact: {
@@ -181,7 +181,7 @@ export const translations: Record<Locale, LocaleContent> = {
       cta: "View Details"
     },
     about: {
-      label: "About Al Nasr",
+      label: "About Al Nasr Cranes",
       title: "About Us",
       text: "Al Nasr Cranes is a Saudi company specialized in crane and heavy equipment rental with reliable machines and qualified operation teams.",
       points: ["Modern ready-to-work equipment", "Commitment to safety and quality", "Coverage across Saudi Arabia"]
