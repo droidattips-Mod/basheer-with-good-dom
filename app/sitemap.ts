@@ -4,12 +4,10 @@ const baseUrl = 'https://alnasrcranes.vercel.app'
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const equipmentSlugs = [
-    // الرافعات الشوكية
     'forklift-komatsu-5ton',
     'forklift-toyota-3ton-diesel',
     'forklift-mitsubishi-5ton',
     'forklift-linde-5ton-electric',
-    // الرافعات المقصية
     'scissor-lift-gtjz10-10m',
     'scissor-lift-jlg-10m',
     'scissor-lift-zoomlion-7m',
@@ -34,7 +32,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
   ])
 
   return [
-    // الصفحات الرئيسية
     {
       url: `${baseUrl}/ar`,
       lastModified: new Date(),
@@ -47,7 +44,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'weekly',
       priority: 1,
     },
-    // صفحات المعدات
     ...equipmentPages,
   ]
 }
