@@ -27,8 +27,9 @@ export default function Header({ locale, brandName, links, languageLabel }: Prop
   return (
     <header className={`fixed inset-x-0 top-0 z-50 transition ${scrolled ? "bg-[#111827]/95 shadow-lg backdrop-blur" : "bg-transparent"}`}>
       <div className="section-container flex h-20 items-center justify-between">
-        <a href="#home" aria-label={`${brandName} home`} className="shrink-0">
+        <a href="#home" aria-label={`${brandName} home`} className="flex shrink-0 items-center gap-3">
           <Image src="/logo.png" alt={brandName} width={56} height={56} className="h-14 w-14 rounded-full object-cover" priority />
+          <span className="text-sm font-bold text-white">{brandName}</span>
         </a>
         <nav className="hidden items-center gap-6 md:flex">
           {links.map((link) => (
