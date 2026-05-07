@@ -6,9 +6,10 @@ type Props = {
   locale: Locale;
   requestNowLabel: string;
   viewAllLabel: string;
+  viewDetailsLabel: string;
 };
 
-export default function EquipmentCategory({ category, locale, requestNowLabel, viewAllLabel }: Props) {
+export default function EquipmentCategory({ category, locale, requestNowLabel, viewAllLabel, viewDetailsLabel }: Props) {
   const categoryName = locale === "ar" ? category.nameAr : category.nameEn;
 
   return (
@@ -27,6 +28,7 @@ export default function EquipmentCategory({ category, locale, requestNowLabel, v
             locale={locale}
             categoryLabel={categoryName}
             requestNowLabel={requestNowLabel}
+            viewDetailsLabel={viewDetailsLabel}
           />
         ))}
       </div>

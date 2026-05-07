@@ -21,6 +21,7 @@ export default function EquipmentSection({ locale }: { locale: Locale }) {
               locale={locale}
               requestNowLabel={t.requestNow}
               viewAllLabel={t.viewAll}
+              viewDetailsLabel={t.details}
             />
           ))}
         </div>

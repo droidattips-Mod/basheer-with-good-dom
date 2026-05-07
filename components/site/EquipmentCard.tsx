@@ -8,9 +8,10 @@ type Props = {
   locale: Locale;
   categoryLabel: string;
   requestNowLabel: string;
+  viewDetailsLabel: string;
 };
 
-export default function EquipmentCard({ item, locale, categoryLabel, requestNowLabel }: Props) {
+export default function EquipmentCard({ item, locale, categoryLabel, requestNowLabel, viewDetailsLabel }: Props) {
   const name = locale === "ar" ? item.nameAr : item.nameEn;
   const description = locale === "ar" ? item.descriptionAr : item.descriptionEn;
   const whatsappHref = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent("أود الاستفسار عن تأجير المعدة: " + name)}`;
@@ -39,17 +40,25 @@ export default function EquipmentCard({ item, locale, categoryLabel, requestNowL
           <h4 className="line-clamp-2 text-sm font-black leading-6 text-[#111827] md:text-lg md:leading-7">{name}</h4>
           <p className="mt-1 text-xs text-[#6B7280] md:text-sm">{item.spec ?? description}</p>
         </div>
-        <div className="relative z-10 border-t border-slate-100 text-[11px] font-bold md:text-sm">
+        <div className="relative z-10 flex border-t border-slate-100 text-[11px] font-bold md:text-sm">
           <a
             href={whatsappHref}
             target="_blank"
             rel="noreferrer"
             aria-label={`${requestNowLabel} ${name} عبر واتساب`}
-            className="inline-flex w-full min-h-9 items-center justify-center gap-1 bg-[#ECFFF4] px-2 text-[#009E55] transition hover:bg-[#DDF9EA]"
+            className="inline-flex flex-1 min-h-9 items-center justify-center gap-1 bg-[#ECFFF4] px-2 text-[#009E55] transition hover:bg-[#DDF9EA]"
           >
             <Image src="/whatsapp-icon.svg" alt="WhatsApp" width={14} height={14} className="h-3.5 w-3.5" />
             {requestNowLabel}
           </a>
+          {detailHref && (
+            <Link
+              href={detailHref}
+              className="inline-flex flex-1 min-h-9 items-center justify-center border-s border-slate-100 px-2 text-[#C9A227] transition hover:bg-[#FFF9EC]"
+            >
+              {viewDetailsLabel}
+            </Link>
+          )}
         </div>
       </div>
     </article>
