@@ -27,7 +27,7 @@ export default function EquipmentCard({ item, locale, categoryLabel, requestNowL
         />
       )}
       <div className="relative h-36 overflow-hidden bg-[#eef2f7] sm:h-44 md:h-48">
-        <Image src={item.image} alt={`${name} - النصر`} fill className="object-cover transition duration-300 group-hover:scale-105" sizes="(max-width:768px) 50vw, 25vw" />
+        <Image src={item.image} alt={`${name} - النصر`} fill className="object-contain transition duration-300 group-hover:scale-105" sizes="(max-width:768px) 50vw, 25vw" />
         {item.badge && (
           <span className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 rounded-full bg-[#006C35] px-2.5 py-1 text-[10px] font-black text-white shadow md:text-xs">
             {item.badge}

@@ -1,5 +1,6 @@
+import Image from "next/image";
 import type { Locale } from "@/types/site";
-import { translations } from "@/data/content";
+import { translations, WHATSAPP_NUMBER } from "@/data/content";
 import Stats from "./Stats";
 
 export default function Hero({ locale }: { locale: Locale }) {
@@ -24,8 +25,14 @@ export default function Hero({ locale }: { locale: Locale }) {
             <a href="#equipment" className="btn-primary">
               {t.hero.browseCta}
             </a>
-            <a href="#contact" className="btn-secondary">
-              {t.hero.contactCta}
+            <a
+              href={`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent("مرحبا! نريد الحصول على أفضل عرض سعر منكم للمعدات التالية:")}`}
+              target="_blank"
+              rel="noreferrer"
+              className="inline-flex items-center gap-2 rounded-full bg-[#06281A] px-6 py-3 font-black text-white shadow-[0_4px_18px_rgba(6,40,26,0.50)] transition hover:bg-[#041c12] hover:shadow-[0_6px_24px_rgba(6,40,26,0.65)] hover:-translate-y-0.5"
+            >
+              <Image src="/whatsapp-icon.svg" alt="WhatsApp" width={20} height={20} className="h-5 w-5" />
+              {locale === "ar" ? "الحصول على عرض سعر" : "GET QUOTE"}
             </a>
           </div>
           <Stats items={t.stats} />

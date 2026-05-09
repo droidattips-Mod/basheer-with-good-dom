@@ -104,13 +104,13 @@ export default function EquipmentDetailPage({ locale, equipment, related }: Prop
             </div>
 
             {/* Image side */}
-            <div className={`${isAr ? "order-2" : "order-1"} relative mx-auto w-full max-w-sm overflow-hidden rounded-2xl bg-[#1a2434] shadow-xl lg:max-w-full`}>
+            <div className={`${isAr ? "order-2" : "order-1"} mx-auto w-full max-w-sm overflow-hidden rounded-2xl shadow-xl lg:max-w-full`}>
               <Image
                 src={equipment.image}
                 alt={name}
-                width={600}
-                height={420}
-                className="h-64 w-full object-cover md:h-80 lg:h-96"
+                width={900}
+                height={1200}
+                className="w-full h-auto"
                 priority
               />
             </div>
@@ -203,7 +203,7 @@ export default function EquipmentDetailPage({ locale, equipment, related }: Prop
                   <article key={rel.slug} className="group relative overflow-hidden rounded-[14px] border border-slate-100 bg-white shadow-[0_8px_22px_rgba(15,23,42,0.10)] transition duration-300 hover:-translate-y-1 hover:shadow-xl">
                     <Link href={`/${locale}/equipment/${rel.slug}`} className="absolute inset-0 z-0 rounded-[14px]" aria-label={relName} />
                     <div className="relative h-36 overflow-hidden bg-[#eef2f7] sm:h-44 md:h-48">
-                      <Image src={rel.image} alt={relName} fill className="object-cover transition duration-300 group-hover:scale-105" sizes="(max-width:768px) 50vw, 25vw" />
+                      <Image src={rel.image} alt={relName} fill className="object-contain transition duration-300 group-hover:scale-105" sizes="(max-width:768px) 50vw, 25vw" />
                     </div>
                     <div className="bg-white">
                       <div className="min-h-[86px] px-3 py-3 text-center md:min-h-[96px] md:px-4">
