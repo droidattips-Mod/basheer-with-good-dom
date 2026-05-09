@@ -66,7 +66,7 @@ export const DISPLAY_EMAIL = "alnsercranes@gmail.com";
 export const translations: Record<Locale, LocaleContent> = {
   ar: {
     dir: "rtl",
-    brandName: "روافع النصر",
+    brandName: "رافعات النصر",
     nav: [
       { id: "home", href: "#home", label: "الرئيسية" },
       { id: "equipment", href: "#equipment", label: "المعدات" },
