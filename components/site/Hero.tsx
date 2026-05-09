@@ -26,7 +26,7 @@ export default function Hero({ locale }: { locale: Locale }) {
               {t.hero.browseCta}
             </a>
             <a
-              href={`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent("مرحبا! نريد الحصول على أفضل عرض سعر منكم للمعدات التالية:")}`}
+              href={`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(locale === "ar" ? "مرحبا! نريد الحصول على أفضل عرض سعر منكم للمعدات التالية:" : "Hello! We would like to get the best quote from you for the following equipment:")}`}
               target="_blank"
               rel="noreferrer"
               className="inline-flex items-center gap-2 rounded-full bg-[#06281A] px-6 py-3 font-black text-white shadow-[0_4px_18px_rgba(6,40,26,0.50)] transition hover:bg-[#041c12] hover:shadow-[0_6px_24px_rgba(6,40,26,0.65)] hover:-translate-y-0.5"
