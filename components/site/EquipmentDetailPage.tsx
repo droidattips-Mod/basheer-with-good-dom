@@ -68,13 +68,13 @@ export default function EquipmentDetailPage({ locale, equipment, related }: Prop
   return (
     <div dir={isAr ? "rtl" : "ltr"}>
       {/* ── Hero ──────────────────────────────────────────────────────────────── */}
-      <section className="bg-[#111827] pt-28 pb-14 text-white">
+      <section className="bg-[#06281A] pt-28 pb-14 text-white">
         <div className="section-container">
           {/* Breadcrumb */}
           <nav className="mb-6 flex flex-wrap items-center gap-2 text-xs text-white/55">
-            <Link href={`/${locale}`} className="hover:text-[#C9A227]">{l.home}</Link>
+            <Link href={`/${locale}`} className="hover:text-[#00A651]">{l.home}</Link>
             <span>/</span>
-            <Link href={`/${locale}#equipment`} className="hover:text-[#C9A227]">{categoryName}</Link>
+            <Link href={`/${locale}#equipment`} className="hover:text-[#00A651]">{categoryName}</Link>
             <span>/</span>
             <span className="text-white/80">{name}</span>
           </nav>
@@ -147,8 +147,8 @@ export default function EquipmentDetailPage({ locale, equipment, related }: Prop
           </div>
 
           {/* Pricing card */}
-          <div className="rounded-2xl bg-[#111827] p-6 text-white shadow-soft">
-            <h2 className="mb-5 text-lg font-extrabold text-[#C9A227]">{l.pricing}</h2>
+          <div className="rounded-2xl bg-[#06281A] p-6 text-white shadow-soft">
+            <h2 className="mb-5 text-lg font-extrabold text-[#00A651]">{l.pricing}</h2>
             <div className="space-y-4">
               <div className="flex items-center justify-between border-b border-white/10 pb-4">
                 <div>
@@ -165,7 +165,7 @@ export default function EquipmentDetailPage({ locale, equipment, related }: Prop
                 <span className="text-sm text-white/70">{l.monthly}</span>
               </div>
             </div>
-            <a href={whatsappHref} target="_blank" rel="noreferrer" className="mt-6 inline-flex w-full items-center justify-center gap-2 rounded-xl bg-[#C9A227] px-5 py-3 text-sm font-bold text-[#06281A] transition hover:brightness-95">
+            <a href={whatsappHref} target="_blank" rel="noreferrer" className="mt-6 inline-flex w-full items-center justify-center gap-2 rounded-xl bg-[#006C35] px-5 py-3 text-sm font-bold text-white transition hover:bg-[#004B26]">
               <Image src="/whatsapp-icon.svg" alt="" width={16} height={16} />
               {l.orderNow}
             </a>
@@ -178,7 +178,7 @@ export default function EquipmentDetailPage({ locale, equipment, related }: Prop
               {equipment.availableCities.map((city) => (
                 <span
                   key={city}
-                  className="inline-flex items-center gap-1 rounded-full border border-[#C9A227]/40 bg-[#C9A227]/10 px-3 py-1 text-xs font-bold text-[#8A6A13]"
+                  className="inline-flex items-center gap-1 rounded-full border border-[#006C35]/40 bg-[#006C35]/10 px-3 py-1 text-xs font-bold text-[#004B26]"
                 >
                   📍 {city}
                 </span>
@@ -192,7 +192,7 @@ export default function EquipmentDetailPage({ locale, equipment, related }: Prop
       {related.length > 0 && (
         <section className="bg-white py-12 md:py-16">
           <div className="section-container">
-            <div className="mx-auto mb-10 max-w-4xl rounded-[18px] bg-[#111827] p-6 text-center text-white shadow-[0_10px_22px_rgba(15,23,42,0.22)] md:p-8">
+            <div className="mx-auto mb-10 max-w-4xl rounded-[18px] bg-[#06281A] p-6 text-center text-white shadow-[0_10px_22px_rgba(6,40,26,0.22)] md:p-8">
               <h2 className="text-2xl font-black md:text-3xl">{l.related}</h2>
             </div>
             <div className="grid grid-cols-2 gap-4 sm:gap-5 lg:grid-cols-3 xl:grid-cols-4">
@@ -207,7 +207,7 @@ export default function EquipmentDetailPage({ locale, equipment, related }: Prop
                     </div>
                     <div className="bg-white">
                       <div className="min-h-[86px] px-3 py-3 text-center md:min-h-[96px] md:px-4">
-                        <p className="mb-1 text-[11px] font-bold text-[#C9A227] md:text-xs">{isAr ? rel.categoryNameAr : rel.categoryNameEn}</p>
+                        <p className="mb-1 text-[11px] font-bold text-[#006C35] md:text-xs">{isAr ? rel.categoryNameAr : rel.categoryNameEn}</p>
                         <h4 className="line-clamp-2 text-sm font-black leading-6 text-[#111827] md:text-base md:leading-7">{relName}</h4>
                         <p className="mt-1 text-xs text-[#6B7280]">{rel.specs.height ?? rel.specs.capacity}</p>
                       </div>

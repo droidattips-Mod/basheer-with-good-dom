@@ -12,7 +12,7 @@ export default function ContactSection({ locale }: { locale: Locale }) {
       <div className="section-container grid gap-8 lg:grid-cols-2">
         <ContactForm locale={locale} />
 
-        <aside className="rounded-3xl bg-[#111827] p-8 text-white shadow-soft">
+        <aside className="rounded-3xl bg-[#06281A] p-8 text-white shadow-soft">
           <h3 className="text-3xl font-extrabold">{t.infoTitle}</h3>
           <ul className="mt-6 space-y-4 text-white/90">
             <li>{locale === "ar" ? `الهاتف: ${contactInfo.phone}` : `Phone: ${contactInfo.phone}`}</li>
@@ -24,7 +24,7 @@ export default function ContactSection({ locale }: { locale: Locale }) {
             href={`https://wa.me/${WHATSAPP_NUMBER}?text=${whatsappText}`}
             target="_blank"
             rel="noreferrer"
-            className="mt-8 inline-flex items-center gap-2 rounded-xl bg-[#C9A227] px-6 py-3 font-bold text-[#06281A] transition hover:brightness-95"
+            className="mt-8 inline-flex items-center gap-2 rounded-xl bg-[#006C35] px-6 py-3 font-bold text-white transition hover:bg-[#004B26]"
           >
             <Image src="/whatsapp-icon.svg" alt="WhatsApp" width={20} height={20} />
             {t.whatsapp}

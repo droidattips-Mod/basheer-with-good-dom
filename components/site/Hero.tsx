@@ -11,14 +11,14 @@ export default function Hero({ locale }: { locale: Locale }) {
       className="relative min-h-screen bg-cover bg-center pt-28"
       style={{
         backgroundImage:
-          "linear-gradient(rgba(15,23,42,.72), rgba(15,23,42,.82)), url('/images/hero-bg.jpg')"
+          "linear-gradient(rgba(6,40,26,.78), rgba(6,40,26,.90)), url('/images/hero-bg.jpg')"
       }}
     >
       <div className="section-container flex min-h-[calc(100vh-7rem)] items-center">
         <div className={`max-w-3xl text-white ${locale === "ar" ? "text-right" : "text-left"}`}>
           <span className="gold-label">{locale === "ar" ? "حلول مشاريع متكاملة" : "Integrated Project Solutions"}</span>
           <h1 className="text-4xl font-extrabold leading-tight md:text-6xl">{t.hero.title}</h1>
-          <p className="mt-3 text-2xl font-bold text-[#C9A227] md:text-3xl">{t.hero.highlight}</p>
+          <p className="mt-3 text-2xl font-bold text-[#00A651] md:text-3xl">{t.hero.highlight}</p>
           <p className="mt-6 text-base leading-8 text-white/90 md:text-lg">{t.hero.subtitle}</p>
           <div className="mt-8 flex flex-wrap gap-3">
             <a href="#equipment" className="btn-primary">

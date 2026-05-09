@@ -20,7 +20,7 @@ export default function FAQAccordion({ items }: { items: FAQItem[] }) {
           >
             <ChevronDown
               size={18}
-              className={`shrink-0 text-[#C9A227] transition-transform duration-200 ${open === i ? "rotate-180" : ""}`}
+              className={`shrink-0 text-[#006C35] transition-transform duration-200 ${open === i ? "rotate-180" : ""}`}
             />
             <span className="flex-1">{item.q}</span>
           </button>

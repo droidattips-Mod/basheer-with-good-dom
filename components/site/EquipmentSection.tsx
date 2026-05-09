@@ -8,8 +8,8 @@ export default function EquipmentSection({ locale }: { locale: Locale }) {
   return (
     <section id="equipment" className="bg-white py-12 md:py-20">
       <div className="section-container">
-        <div className="mx-auto mb-14 max-w-4xl rounded-[18px] bg-[#111827] p-7 text-center text-white shadow-[0_10px_22px_rgba(15,23,42,0.22)] md:p-10">
-          <span className="mb-3 block text-sm font-black text-[#C9A227]">{t.label}</span>
+        <div className="mx-auto mb-14 max-w-4xl rounded-[18px] bg-[#06281A] p-7 text-center text-white shadow-[0_10px_22px_rgba(6,40,26,0.22)] md:p-10">
+          <span className="mb-3 block text-sm font-black text-[#00A651]">{t.label}</span>
           <h2 className="text-3xl font-black md:text-5xl">{t.title}</h2>
           <p className="mx-auto mt-4 max-w-2xl text-sm leading-7 text-white/75 md:text-lg">{t.subtitle}</p>
         </div>

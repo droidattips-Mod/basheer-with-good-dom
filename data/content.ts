@@ -212,18 +212,16 @@ export const translations: Record<Locale, LocaleContent> = {
   }
 };
 
-const placeholder = "/equipment-placeholder.svg";
-
 export const equipmentCategories: EquipmentCategory[] = [
   {
     id: "forklifts",
     nameAr: "الرافعات الشوكية",
     nameEn: "Forklifts",
     items: [
-      { id: 1, nameAr: "رافعة شوكية كوماتسو 5 طن", nameEn: "Komatsu 5 Ton Forklift", descriptionAr: "4.7m", descriptionEn: "4.7m", spec: "4.7m", badge: "Ton 5", image: "/images/equipment/forklift-komatsu-5ton.jpg", slug: "forklift-komatsu-5ton" },
+      { id: 1, nameAr: "رافعة شوكية كوماتسو 5 طن", nameEn: "Komatsu 5 Ton Forklift", descriptionAr: "4.7m", descriptionEn: "4.7m", spec: "4.7m", badge: "Ton 5", image: "/images/equipment/forklift-komatsu-5ton.png", slug: "forklift-komatsu-5ton" },
       { id: 2, nameAr: "رافعة شوكية تويوتا 3 طن – ديزل", nameEn: "Toyota 3 Ton Diesel Forklift", descriptionAr: "4.5m", descriptionEn: "4.5m", spec: "4.5m", badge: "Ton 3", image: "/images/equipment/forklift-toyota-3ton-diesel.jpg", slug: "forklift-toyota-3ton-diesel" },
       { id: 3, nameAr: "رافعة شوكية ميتسوبيشي 5 طن", nameEn: "Mitsubishi 5 Ton Forklift", descriptionAr: "4.7m", descriptionEn: "4.7m", spec: "4.7m", badge: "Ton 5", image: "/images/equipment/forklift-mitsubishi-5ton.jpg", slug: "forklift-mitsubishi-5ton" },
-      { id: 4, nameAr: "رافعة شوكية ليند 5 طن – كهرباء", nameEn: "Linde 5 Ton Electric Forklift", descriptionAr: "5.0m", descriptionEn: "5.0m", spec: "5.0m", badge: "Ton 5", image: "/images/equipment/forklift-linde-5ton-electric.jpg", slug: "forklift-linde-5ton-electric" }
+      { id: 4, nameAr: "رافعة شوكية ليند 5 طن – كهرباء", nameEn: "Linde 5 Ton Electric Forklift", descriptionAr: "5.0m", descriptionEn: "5.0m", spec: "5.0m", badge: "Ton 5", image: "/images/equipment/forklift-linde-5ton-electric.png", slug: "forklift-linde-5ton-electric" }
     ]
   },
   {
@@ -240,14 +238,25 @@ export const equipmentCategories: EquipmentCategory[] = [
     ]
   },
   {
+    id: "boom-trucks",
+    nameAr: "تأجير بوم تراك",
+    nameEn: "Boom Trucks Rental",
+    items: [
+      { id: 26, nameAr: "بوم تراك 3 طن", nameEn: "Boom Truck 3 Ton", descriptionAr: "20m", descriptionEn: "20m", spec: "20m", badge: "Ton 3", image: "/images/equipment/boom-truck-3ton.jpg", slug: "boom-truck-3ton" },
+      { id: 27, nameAr: "بوم تراك 5 طن", nameEn: "Boom Truck 5 Ton", descriptionAr: "20m", descriptionEn: "20m", spec: "20m", badge: "Ton 5", image: "/images/equipment/boom-truck-5ton.jpg", slug: "boom-truck-5ton" }
+    ]
+  },
+  {
     id: "cranes",
     nameAr: "الكرينات",
     nameEn: "Cranes",
     items: [
-      { id: 9, nameAr: "كرين موبيل تادانو 50 طن", nameEn: "Tadano Mobile Crane 50 Ton", descriptionAr: "40m", descriptionEn: "40m", spec: "40m", badge: "Ton 50", image: "https://images.unsplash.com/photo-1581093196277-9f608bb3f6ad?auto=format&fit=crop&w=1200&q=80" },
-      { id: 10, nameAr: "كرين ليبر 100 طن", nameEn: "Liebherr Crane 100 Ton", descriptionAr: "60m", descriptionEn: "60m", spec: "60m", badge: "Ton 100", image: placeholder },
-      { id: 11, nameAr: "كرين كاتو 25 طن", nameEn: "Kato Crane 25 Ton", descriptionAr: "30m", descriptionEn: "30m", spec: "30m", badge: "Ton 25", image: "https://images.unsplash.com/photo-1489515217757-5fd1be406fef?auto=format&fit=crop&w=1200&q=80" },
-      { id: 12, nameAr: "كرين تادانو 50 طن", nameEn: "Tadano Crane 50 Ton", descriptionAr: "42m", descriptionEn: "42m", spec: "42m", badge: "Ton 50", image: "https://images.unsplash.com/photo-1625047509248-ec889cbff17f?auto=format&fit=crop&w=1200&q=80" }
+      { id: 28, nameAr: "كرين ليبهر 100 طن", nameEn: "Liebherr Crane 100 Ton", descriptionAr: "00m", descriptionEn: "00m", spec: "00m", badge: "Ton 100", image: "/images/equipment/crane-liebherr-100ton.jpg", slug: "crane-liebherr-100ton" },
+      { id: 29, nameAr: "كرين تادانو 90 طن", nameEn: "Tadano Crane 90 Ton", descriptionAr: "00m", descriptionEn: "00m", spec: "00m", badge: "Ton 90", image: "/images/equipment/crane-tadano-90ton.jpg", slug: "crane-tadano-90ton" },
+      { id: 30, nameAr: "كرين موبايل غروف 60 طن", nameEn: "Grove Mobile Crane 60 Ton", descriptionAr: "00m", descriptionEn: "00m", spec: "00m", badge: "Ton 60", image: "/images/equipment/crane-grove-60ton.jpg", slug: "crane-grove-60ton" },
+      { id: 31, nameAr: "كرين كاتو 60 طن", nameEn: "Kato Crane 60 Ton", descriptionAr: "00m", descriptionEn: "00m", spec: "00m", badge: "Ton 60", image: "/images/equipment/crane-kato-60ton.jpg", slug: "crane-kato-60ton" },
+      { id: 32, nameAr: "كرين تادانو 40 طن", nameEn: "Tadano Crane 40 Ton", descriptionAr: "00m", descriptionEn: "00m", spec: "00m", badge: "Ton 40", image: "/images/equipment/crane-tadano-40ton.jpg", slug: "crane-tadano-40ton" },
+      { id: 33, nameAr: "كرين كاتو 30 طن", nameEn: "Kato Crane 30 Ton", descriptionAr: "00m", descriptionEn: "00m", spec: "00m", badge: "Ton 30", image: "/images/equipment/crane-kato-30ton.jpg", slug: "crane-kato-30ton" }
     ]
   },
   {
@@ -255,8 +264,11 @@ export const equipmentCategories: EquipmentCategory[] = [
     nameAr: "البوبكات",
     nameEn: "Bobcats",
     items: [
-      { id: 13, nameAr: "بوبكات S450", nameEn: "Bobcat S450", descriptionAr: "3m", descriptionEn: "3m", spec: "3m", badge: "Ton 0.6", image: "https://images.unsplash.com/photo-1590247813693-5541d1c609fd?auto=format&fit=crop&w=1200&q=80" },
-      { id: 14, nameAr: "بوبكات S450 للمشاريع الصغيرة", nameEn: "Bobcat S450 for Small Projects", descriptionAr: "2.8m", descriptionEn: "2.8m", spec: "2.8m", badge: "kg 700", image: "https://images.unsplash.com/photo-1590247813693-5541d1c609fd?auto=format&fit=crop&w=1200&q=80" }
+      { id: 34, nameAr: "سكيد ستير بوبكات S100", nameEn: "Bobcat S100 Skid-Steer Loader", descriptionAr: "ديزل", descriptionEn: "Diesel", spec: "Diesel", badge: "Diesel", image: "/images/equipment/bobcat-s100.jpg", slug: "bobcat-s100" },
+      { id: 35, nameAr: "سكيد ستير بوبكات S150", nameEn: "Bobcat S150 Skid-Steer Loader", descriptionAr: "ديزل", descriptionEn: "Diesel", spec: "Diesel", badge: "Diesel", image: "/images/equipment/bobcat-s150.jpg", slug: "bobcat-s150" },
+      { id: 36, nameAr: "لودر مضمار مدمج جون دير 317G", nameEn: "John Deere 317G Compact Track Loader", descriptionAr: "ديزل", descriptionEn: "Diesel", spec: "Diesel", badge: "Diesel", image: "/images/equipment/bobcat-john-deere-317g.jpg", slug: "bobcat-john-deere-317g" },
+      { id: 37, nameAr: "هيونداي HSL850-7", nameEn: "Hyundai HSL850-7", descriptionAr: "ديزل", descriptionEn: "Diesel", spec: "Diesel", badge: "Diesel", image: "/images/equipment/bobcat-hyundai-hsl850-7.jpg", slug: "bobcat-hyundai-hsl850-7" },
+      { id: 38, nameAr: "بوبكات باك هو لودر B730", nameEn: "Bobcat Backhoe Loader B730", descriptionAr: "ديزل", descriptionEn: "Diesel", spec: "Diesel", badge: "Diesel", image: "/images/equipment/bobcat-backhoe-b730.jpg", slug: "bobcat-backhoe-b730" }
     ]
   },
   {
@@ -264,8 +276,8 @@ export const equipmentCategories: EquipmentCategory[] = [
     nameAr: "البوكلينات",
     nameEn: "Excavators",
     items: [
-      { id: 15, nameAr: "حفار صغير 3.5 طن", nameEn: "Mini Excavator 3.5 Ton", descriptionAr: "N/A", descriptionEn: "N/A", spec: "N/A", badge: "Ton 3.5", image: placeholder },
-      { id: 16, nameAr: "بوكلين كتربلر 428", nameEn: "Caterpillar 428 Backhoe", descriptionAr: "N/A", descriptionEn: "N/A", spec: "N/A", badge: "m3 1", image: placeholder }
+      { id: 39, nameAr: "حفار عجلي هيونداي HW140", nameEn: "Hyundai HW140 Wheel Excavator", descriptionAr: "ديزل", descriptionEn: "Diesel", spec: "Diesel", badge: "Diesel", image: "/images/equipment/excavator-hyundai-hw140.jpg", slug: "excavator-hyundai-hw140" },
+      { id: 40, nameAr: "حفار زاحف هيونداي 480", nameEn: "Hyundai Crawler Excavator 480", descriptionAr: "ديزل", descriptionEn: "Diesel", spec: "Diesel", badge: "Diesel", image: "/images/equipment/excavator-hyundai-crawler-480.jpg", slug: "excavator-hyundai-crawler-480" }
     ]
   },
   {
@@ -273,8 +285,9 @@ export const equipmentCategories: EquipmentCategory[] = [
     nameAr: "الشيولات",
     nameEn: "Wheel Loaders",
     items: [
-      { id: 17, nameAr: "رصاصة أسفلت 3 طن", nameEn: "Asphalt Roller 3 Ton", descriptionAr: "N/A", descriptionEn: "N/A", spec: "N/A", badge: "Ton 3", image: placeholder },
-      { id: 18, nameAr: "شيول كتربلر 966H للايجار في الرياض", nameEn: "Caterpillar 966H Wheel Loader", descriptionAr: "4m", descriptionEn: "4m", spec: "4m", badge: "m3 4", image: "https://images.unsplash.com/photo-1556172732-9f74a277a6f0?auto=format&fit=crop&w=1200&q=80" }
+      { id: 41, nameAr: "شيول كاتربيلر 1", nameEn: "Caterpillar Wheel Loader 1", descriptionAr: "ديزل", descriptionEn: "Diesel", spec: "Diesel", badge: "Diesel", image: "/images/equipment/loader-caterpillar-1.jpg", slug: "loader-caterpillar-1" },
+      { id: 42, nameAr: "شيول كاتربيلر 2", nameEn: "Caterpillar Wheel Loader 2", descriptionAr: "ديزل", descriptionEn: "Diesel", spec: "Diesel", badge: "Diesel", image: "/images/equipment/loader-caterpillar-2.jpg", slug: "loader-caterpillar-2" },
+      { id: 43, nameAr: "رول 12 طن", nameEn: "Roller 12 Ton", descriptionAr: "ديزل", descriptionEn: "Diesel", spec: "Diesel", badge: "Ton 12", image: "/images/equipment/roller-12ton.jpg", slug: "roller-12ton" }
     ]
   },
   {
@@ -282,20 +295,7 @@ export const equipmentCategories: EquipmentCategory[] = [
     nameAr: "التليوهندر",
     nameEn: "Telehandlers",
     items: [
-      { id: 19, nameAr: "تليوهندر مانيتو 14 متر", nameEn: "Manitou 14m Telehandler", descriptionAr: "14m", descriptionEn: "14m", spec: "14m", badge: "Ton 4", image: "https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?auto=format&fit=crop&w=1200&q=80" },
-      { id: 20, nameAr: "تليوهندر جي سي بي 17 متر للايجار", nameEn: "JCB 17m Telehandler", descriptionAr: "17m", descriptionEn: "17m", spec: "17m", badge: "Ton 4", image: "https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=crop&w=1200&q=80" },
-      { id: 21, nameAr: "جي سي بي تليوهندر 17 متر", nameEn: "JCB Telehandler 17m", descriptionAr: "10m", descriptionEn: "10m", spec: "10m", badge: "Ton 3", image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1200&q=80" }
-    ]
-  },
-  {
-    id: "boom",
-    nameAr: "مان لفت",
-    nameEn: "Boom Lifts",
-    items: [
-      { id: 22, nameAr: "بوم لفت مفصلي 16 متر للايجار", nameEn: "16m Articulating Boom Lift", descriptionAr: "16m", descriptionEn: "16m", spec: "16m", badge: "kg 250", image: "https://images.unsplash.com/photo-1565008447742-97f6f38c985c?auto=format&fit=crop&w=1200&q=80" },
-      { id: 23, nameAr: "بوم لفت جيني 20 متر", nameEn: "Genie Boom Lift 20m", descriptionAr: "20m", descriptionEn: "20m", spec: "20m", badge: "kg 227", image: "https://images.unsplash.com/photo-1605152276897-4f618f831968?auto=format&fit=crop&w=1200&q=80" },
-      { id: 24, nameAr: "رافعات ذراعية (مان لفت 8 وبوم لفت)", nameEn: "Articulating Lift 8m & Boom Lift", descriptionAr: "22-42", descriptionEn: "22-42", spec: "22-42", badge: "10", image: "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&w=1200&q=80" },
-      { id: 25, nameAr: "بوم لفت 26 متر", nameEn: "Boom Lift 26m", descriptionAr: "26m", descriptionEn: "26m", spec: "26m", badge: "kg 250", image: "https://images.unsplash.com/photo-1565008447742-97f6f38c985c?auto=format&fit=crop&w=1200&q=80" }
+      { id: 44, nameAr: "تليهاندلر جي سي بي 17 متر", nameEn: "JCB 17m Telehandler", descriptionAr: "17m", descriptionEn: "17m", spec: "17m", badge: "Ton 4", image: "/images/equipment/telehandler-jcb-17m.jpg", slug: "telehandler-jcb-17m" }
     ]
   }
 ];

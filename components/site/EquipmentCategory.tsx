@@ -15,7 +15,7 @@ export default function EquipmentCategory({ category, locale, requestNowLabel, v
   return (
     <section className="space-y-5 md:space-y-7">
       <div className="flex items-center justify-between gap-4">
-        <a href="#contact" className="text-sm font-bold text-[#C9A227] transition hover:text-[#8A6A13]">
+        <a href="#contact" className="text-sm font-bold text-[#006C35] transition hover:text-[#004B26]">
           {viewAllLabel} ←
         </a>
         <h3 className="text-2xl font-black text-[#111827] md:text-3xl">{categoryName}</h3>

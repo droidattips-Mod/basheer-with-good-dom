@@ -19,7 +19,7 @@ body {
 }
 
 .btn-secondary {
-  @apply inline-flex items-center justify-center rounded-xl border border-[#C9A227] px-6 py-3 text-sm font-semibold text-[#C9A227] transition hover:bg-[#C9A227]/10 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#C9A227] focus-visible:ring-offset-2;
+  @apply inline-flex items-center justify-center rounded-xl border border-[#006C35] px-6 py-3 text-sm font-semibold text-[#006C35] transition hover:bg-[#006C35]/10 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#006C35] focus-visible:ring-offset-2;
 }
 
 .card {
@@ -27,5 +27,5 @@ body {
 }
 
 .gold-label {
-  @apply mb-3 inline-flex rounded-full border border-[#C9A227]/35 bg-[#C9A227]/10 px-4 py-1 text-xs font-bold tracking-wide text-[#C9A227];
+  @apply mb-3 inline-flex rounded-full border border-[#006C35]/35 bg-[#006C35]/10 px-4 py-1 text-xs font-bold tracking-wide text-[#006C35];
 }

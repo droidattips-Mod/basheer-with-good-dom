@@ -29,14 +29,14 @@ export default function EquipmentCard({ item, locale, categoryLabel, requestNowL
       <div className="relative h-36 overflow-hidden bg-[#eef2f7] sm:h-44 md:h-48">
         <Image src={item.image} alt={`${name} - النصر`} fill className="object-cover transition duration-300 group-hover:scale-105" sizes="(max-width:768px) 50vw, 25vw" />
         {item.badge && (
-          <span className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 rounded-full bg-[#F2A51A] px-2.5 py-1 text-[10px] font-black text-[#111827] shadow md:text-xs">
+          <span className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 rounded-full bg-[#006C35] px-2.5 py-1 text-[10px] font-black text-white shadow md:text-xs">
             {item.badge}
           </span>
         )}
       </div>
       <div className="bg-white">
         <div className="min-h-[86px] px-3 py-3 text-center md:min-h-[96px] md:px-4">
-          <p className="mb-1 text-[11px] font-bold text-[#C9A227] md:text-xs">{categoryLabel}</p>
+          <p className="mb-1 text-[11px] font-bold text-[#006C35] md:text-xs">{categoryLabel}</p>
           <h4 className="line-clamp-2 text-sm font-black leading-6 text-[#111827] md:text-lg md:leading-7">{name}</h4>
           <p className="mt-1 text-xs text-[#6B7280] md:text-sm">{item.spec ?? description}</p>
         </div>
@@ -54,7 +54,7 @@ export default function EquipmentCard({ item, locale, categoryLabel, requestNowL
           {detailHref && (
             <Link
               href={detailHref}
-              className="inline-flex flex-1 min-h-9 items-center justify-center border-s border-slate-100 px-2 text-[#C9A227] transition hover:bg-[#FFF9EC]"
+              className="inline-flex flex-1 min-h-9 items-center justify-center border-s border-slate-100 px-2 text-[#006C35] transition hover:bg-[#ECFFF4]"
             >
               {viewDetailsLabel}
             </Link>

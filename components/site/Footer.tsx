@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { contactInfo, translations } from "@/data/content";
 import type { Locale } from "@/types/site";
 
@@ -5,10 +6,13 @@ export default function Footer({ locale }: { locale: Locale }) {
   const t = translations[locale];
 
   return (
-    <footer className="bg-[#111827] py-14 text-white">
+    <footer className="bg-[#06281A] py-14 text-white">
       <div className="section-container grid gap-10 md:grid-cols-3">
         <div>
-          <h3 className="text-xl font-extrabold">{t.footer.title}</h3>
+          <div className="flex items-center gap-3">
+            <Image src="/logo.png" alt={t.brandName} width={48} height={48} className="h-12 w-12 rounded-full object-cover" />
+            <h3 className="text-xl font-extrabold">{t.footer.title}</h3>
+          </div>
           <p className="mt-3 text-sm leading-7 text-white/80">{t.footer.description}</p>
         </div>
         <div>
@@ -16,7 +20,7 @@ export default function Footer({ locale }: { locale: Locale }) {
           <ul className="mt-3 space-y-2 text-sm text-white/85">
             {t.nav.map((link) => (
               <li key={link.id}>
-                <a href={link.href} className="hover:text-[#C9A227]">
+                <a href={link.href} className="hover:text-[#00A651]">
                   {link.label}
                 </a>
               </li>
