@@ -1,6 +1,6 @@
-import { equipmentCategories, translations } from "@/data/content";
+import { translations, equipmentCategories } from "@/data/content";
 import type { Locale } from "@/types/site";
-import EquipmentCategory from "./EquipmentCategory";
+import EquipmentCategorySection from "./EquipmentCategory";
 
 export default function EquipmentSection({ locale }: { locale: Locale }) {
   const t = translations[locale].equipment;
@@ -15,7 +15,7 @@ export default function EquipmentSection({ locale }: { locale: Locale }) {
         </div>
         <div className="mx-auto max-w-5xl space-y-16 md:space-y-20">
           {equipmentCategories.map((category) => (
-            <EquipmentCategory
+            <EquipmentCategorySection
               key={category.id}
               category={category}
               locale={locale}

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "النصر للمقاولات وتأجير الرافعات",
+  title: "رافعات النصر | تأجير رافعات ومعدات ثقيلة",
   description: "موقع النصر لتأجير الرافعات والمعدات الثقيلة."
 };
 

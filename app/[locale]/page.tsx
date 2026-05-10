@@ -11,8 +11,8 @@ import ContactSection from "@/components/site/ContactSection";
 import Footer from "@/components/site/Footer";
 import FloatingButtons from "@/components/site/FloatingButtons";
 
-export default function LocalePage({ params }: { params: { locale: string } }) {
-  const { locale } = params;
+export default async function LocalePage({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
   if (!isLocale(locale)) notFound();
   const t = translations[locale];
 

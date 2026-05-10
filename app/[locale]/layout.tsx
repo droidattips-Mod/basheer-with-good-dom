@@ -10,14 +10,14 @@ export function generateStaticParams() {
 export async function generateMetadata({
   params
 }: {
-  params: { locale: string };
+  params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
-  const { locale } = params;
+  const { locale } = await params;
   if (!isLocale(locale)) return {};
 
   if (locale === "ar") {
     return {
-      title: "النصر للمقاولات وتأجير الرافعات | تأجير رافعات ومعدات ثقيلة",
+      title: "رافعات النصر | تأجير رافعات ومعدات ثقيلة",
       description: `شركة النصر للمقاولات وتأجير الرافعات تقدم حلول تأجير الرافعات والمعدات الثقيلة. الهاتف: ${DISPLAY_PHONE}، البريد: ${DISPLAY_EMAIL}.`
     };
   }
@@ -33,9 +33,9 @@ export default async function LocaleLayout({
   params
 }: {
   children: React.ReactNode;
-  params: { locale: string };
+  params: Promise<{ locale: string }>;
 }) {
-  const { locale } = params;
+  const { locale } = await params;
   if (!isLocale(locale)) notFound();
 
   return (

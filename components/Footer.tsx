@@ -6,7 +6,7 @@ export default function Footer() {
     <footer className="bg-brand-dark py-16 text-slate-200">
       <div className="section-container grid gap-10 md:grid-cols-3">
         <div>
-          <p className="text-2xl font-bold text-white">النصر للمقاولات وتأجير الرافعات</p>
+          <p className="text-2xl font-bold text-white"> رافعات النصر | تأجير رافعات ومعدات ثقيلة</p>
           <p className="mt-4 max-w-sm text-sm leading-7 text-slate-300">نقدم خدمات تأجير المعدات والرافعات للمشاريع الإنشائية والصناعية مع التزام كامل بالجودة والسلامة.</p>
         </div>
 
@@ -32,7 +32,7 @@ export default function Footer() {
           </ul>
         </div>
       </div>
-      <p className="section-container mt-10 border-t border-white/10 pt-6 text-center text-xs text-slate-400">جميع الحقوق محفوظة © {new Date().getFullYear()} النصر للمقاولات وتأجير الرافعات</p>
+      <p className="section-container mt-10 border-t border-white/10 pt-6 text-center text-xs text-slate-400">جميع الحقوق محفوظة © {new Date().getFullYear()} رافعات النصر   </p>
     </footer>
   );
 }
