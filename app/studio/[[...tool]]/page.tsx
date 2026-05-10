@@ -1,8 +1,8 @@
 export const dynamic = 'force-static'
 export { metadata, viewport } from 'next-sanity/studio'
 
-import StudioClient from './StudioClient'
+import StudioNoSSR from './StudioNoSSR'
 
 export default function StudioPage() {
-  return <StudioClient />
+  return <StudioNoSSR />
 }
