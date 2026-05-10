@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect, useCallback } from "react";
+import { useState, useEffect } from "react";
 import Image from "next/image";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { translations } from "@/data/content";
@@ -27,14 +27,14 @@ export default function Services({ locale }: { locale: Locale }) {
 
   const total = slides.length;
 
-  const prev = useCallback(() => setCurrent((c) => (c - 1 + total) % total), [total]);
-  const next = useCallback(() => setCurrent((c) => (c + 1) % total), [total]);
+  const prev = () => setCurrent((c) => (c - 1 + total) % total);
+  const next = () => setCurrent((c) => (c + 1) % total);
 
   useEffect(() => {
     if (paused) return;
-    const id = setInterval(next, 3500);
+    const id = setInterval(() => setCurrent((c) => (c + 1) % total), 3500);
     return () => clearInterval(id);
-  }, [paused, next]);
+  }, [paused, total]);
 
   return (
     <section id="services" className="bg-white py-12 md:py-20">
