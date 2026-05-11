@@ -11,10 +11,9 @@ export async function POST(request: Request) {
       return NextResponse.json({ error: 'Missing required fields' }, { status: 400 })
     }
 
-    await resend.emails.send({
+    const { error: resendError } = await resend.emails.send({
       from: 'Al Nasr Cranes <onboarding@resend.dev>',
       to: 'alnasrcranes@gmail.com',
-      replyTo: undefined,
       subject: `طلب عرض سعر جديد — ${name}`,
       html: `
         <div dir="rtl" style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; padding: 24px; border: 1px solid #e2e8f0; border-radius: 12px;">
@@ -54,6 +53,11 @@ export async function POST(request: Request) {
         </div>
       `,
     })
+
+    if (resendError) {
+      console.error('Resend error:', resendError)
+      return NextResponse.json({ error: resendError.message }, { status: 500 })
+    }
 
     return NextResponse.json({ success: true })
   } catch (error) {
