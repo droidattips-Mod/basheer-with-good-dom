@@ -6,12 +6,34 @@ import { PhoneCall } from "lucide-react";
 import { DISPLAY_EMAIL, DISPLAY_PHONE, WHATSAPP_NUMBER } from "@/data/content";
 
 export default function ContactForm() {
-  const [isSubmitted, setIsSubmitted] = useState(false);
+  const [status, setStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle');
 
-  const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
+  const handleSubmit = async (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
-    setIsSubmitted(true);
-    event.currentTarget.reset();
+    setStatus('loading');
+
+    const form = event.currentTarget;
+    const data = {
+      name: (form.elements.namedItem('name') as HTMLInputElement).value,
+      phone: (form.elements.namedItem('phone') as HTMLInputElement).value,
+      equipmentType: (form.elements.namedItem('equipmentType') as HTMLInputElement).value,
+      duration: (form.elements.namedItem('duration') as HTMLInputElement).value,
+      city: (form.elements.namedItem('city') as HTMLInputElement).value,
+      message: (form.elements.namedItem('message') as HTMLTextAreaElement).value,
+    };
+
+    try {
+      const res = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(data),
+      });
+      if (!res.ok) throw new Error('Failed');
+      setStatus('success');
+      form.reset();
+    } catch {
+      setStatus('error');
+    }
   };
 
   return (
@@ -53,12 +75,25 @@ export default function ContactForm() {
                 className="w-full rounded-xl border border-slate-300 px-4 py-3 text-sm outline-none transition focus:border-amber-500 focus:ring-2 focus:ring-amber-200"
               />
             </div>
-            <button type="submit" className="btn-primary w-full">
-              إرسال الطلب
+            <button
+              type="submit"
+              disabled={status === 'loading'}
+              className="btn-primary w-full disabled:opacity-60 disabled:cursor-not-allowed"
+            >
+              {status === 'loading' ? 'جاري الإرسال...' : 'إرسال الطلب'}
             </button>
           </form>
 
-          {isSubmitted && <p className="mt-4 rounded-xl bg-emerald-100 p-3 text-sm font-semibold text-emerald-700">تم إرسال طلبك بنجاح. سنتواصل معك قريباً.</p>}
+          {status === 'success' && (
+            <p className="mt-4 rounded-xl bg-emerald-100 p-3 text-sm font-semibold text-emerald-700">
+              ✅ تم إرسال طلبك بنجاح. سنتواصل معك قريباً.
+            </p>
+          )}
+          {status === 'error' && (
+            <p className="mt-4 rounded-xl bg-red-100 p-3 text-sm font-semibold text-red-700">
+              حدث خطأ أثناء الإرسال. يرجى المحاولة مجدداً أو التواصل عبر واتساب.
+            </p>
+          )}
         </div>
 
         <div className="rounded-2xl bg-brand-navy p-8 text-white shadow-soft">

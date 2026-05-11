@@ -61,7 +61,7 @@ type LocaleContent = {
 
 export const WHATSAPP_NUMBER = "966558204317";
 export const DISPLAY_PHONE = "1) 0558204317  2) 0505893596";
-export const DISPLAY_EMAIL = "alnsercranes@gmail.com";
+export const DISPLAY_EMAIL = "alnasrcranes@gmail.com";
 
 export const translations: Record<Locale, LocaleContent> = {
   ar: {
