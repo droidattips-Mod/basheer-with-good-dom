@@ -20,16 +20,29 @@ const labels = {
     power: "نوع الطاقة",
     pricing: "الأسعار",
     daily: "يومي",
+    weekly: "أسبوعي",
     monthly: "شهري",
+    yearly: "سنوي / عقد",
     sar: "ريال",
-    cities: "المدن المتاحة فيها",
+    cities: "مناطق الخدمة",
     related: "معدات مشابهة",
     faq: "الأسئلة الشائعة",
     orderOnline: "طلب عبر الموقع",
     talkToUs: "تحدث معنا",
     home: "الرئيسية",
     orderNow: "الطلب الآن",
-    specs: "المواصفات التقنية"
+    specs: "المواصفات التقنية",
+    whyUs: "لماذا تستأجر من رافعات النصر؟",
+    rentalOptions: "خيارات الإيجار المتاحة",
+    rentalContact: "للاستفسار عن الأسعار الأسبوعية والسنوية تواصل معنا مباشرة",
+    whyPoints: [
+      "أسطول حديث يخضع للصيانة الدورية المعتمدة",
+      "مشغلون مدربون ومعتمدون على أعلى معايير السلامة",
+      "خدمة عملاء 24/7 طوال أيام الأسبوع",
+      "تغطية شاملة لجميع مناطق المملكة العربية السعودية",
+      "أسعار تنافسية وشفافة بدون رسوم خفية",
+      "استجابة سريعة وتوصيل المعدة لموقعك",
+    ],
   },
   en: {
     available: "Available",
@@ -38,17 +51,30 @@ const labels = {
     power: "Power Type",
     pricing: "Pricing",
     daily: "Daily",
+    weekly: "Weekly",
     monthly: "Monthly",
+    yearly: "Yearly / Contract",
     sar: "SAR",
-    cities: "Available Cities",
+    cities: "Service Areas",
     related: "Similar Equipment",
     faq: "Frequently Asked Questions",
     orderOnline: "Request via Website",
     talkToUs: "Talk to Us",
     home: "Home",
     orderNow: "Order Now",
-    specs: "Technical Specs"
-  }
+    specs: "Technical Specs",
+    whyUs: "Why Rent from Al Nasr Cranes?",
+    rentalOptions: "Available Rental Options",
+    rentalContact: "Contact us directly for weekly and yearly pricing",
+    whyPoints: [
+      "Modern fleet with certified periodic maintenance",
+      "Trained and certified operators meeting top safety standards",
+      "24/7 customer service throughout the week",
+      "Full coverage across all regions of Saudi Arabia",
+      "Competitive and transparent pricing with no hidden fees",
+      "Fast response and equipment delivery to your site",
+    ],
+  },
 };
 
 export default function EquipmentDetailPage({ locale, equipment, related }: Props) {
@@ -107,7 +133,7 @@ export default function EquipmentDetailPage({ locale, equipment, related }: Prop
             <div className={`${isAr ? "order-2" : "order-1"} mx-auto w-full max-w-sm overflow-hidden rounded-2xl shadow-xl lg:max-w-full`}>
               <Image
                 src={equipment.image}
-                alt={name}
+                alt={isAr ? `تأجير ${name} - رافعات النصر` : `Rent ${name} - Al Nasr Cranes`}
                 width={900}
                 height={1200}
                 className="w-full h-auto"
@@ -203,7 +229,13 @@ export default function EquipmentDetailPage({ locale, equipment, related }: Prop
                   <article key={rel.slug} className="group relative overflow-hidden rounded-[14px] border border-slate-100 bg-white shadow-[0_8px_22px_rgba(15,23,42,0.10)] transition duration-300 hover:-translate-y-1 hover:shadow-xl">
                     <Link href={`/${locale}/equipment/${rel.slug}`} className="absolute inset-0 z-0 rounded-[14px]" aria-label={relName} />
                     <div className="relative h-36 overflow-hidden bg-[#eef2f7] sm:h-44 md:h-48">
-                      <Image src={rel.image} alt={relName} fill className="object-contain transition duration-300 group-hover:scale-105" sizes="(max-width:768px) 50vw, 25vw" />
+                      <Image
+                        src={rel.image}
+                        alt={isAr ? `تأجير ${relName} - رافعات النصر` : `Rent ${relName} - Al Nasr Cranes`}
+                        fill
+                        className="object-contain transition duration-300 group-hover:scale-105"
+                        sizes="(max-width:768px) 50vw, 25vw"
+                      />
                     </div>
                     <div className="bg-white">
                       <div className="min-h-[86px] px-3 py-3 text-center md:min-h-[96px] md:px-4">
@@ -225,6 +257,62 @@ export default function EquipmentDetailPage({ locale, equipment, related }: Prop
           </div>
         </section>
       )}
+
+      {/* ── Why Us ───────────────────────────────────────────────────────────── */}
+      <section className="bg-[#06281A] py-12 md:py-16 text-white">
+        <div className="section-container max-w-4xl">
+          <h2 className="mb-8 text-center text-2xl font-extrabold text-[#00A651] md:text-3xl">
+            {isAr ? `لماذا تستأجر ${name} من رافعات النصر؟` : `Why Rent ${name} from Al Nasr Cranes?`}
+          </h2>
+          <ul className="grid gap-3 sm:grid-cols-2">
+            {l.whyPoints.map((point, i) => (
+              <li key={i} className="flex items-start gap-3 rounded-xl bg-white/5 px-4 py-3">
+                <span className="mt-0.5 text-[#00A651] text-lg">✓</span>
+                <span className="text-sm leading-6 text-white/85">{point}</span>
+              </li>
+            ))}
+          </ul>
+          <div className="mt-8 flex flex-wrap justify-center gap-3">
+            <a href={whatsappHref} target="_blank" rel="noreferrer" className="btn-primary inline-flex items-center gap-2">
+              <Image src="/whatsapp-icon.svg" alt="" width={18} height={18} />
+              {l.talkToUs}
+            </a>
+            <a href={`/${locale}#contact`} className="btn-secondary">{l.orderOnline}</a>
+          </div>
+        </div>
+      </section>
+
+      {/* ── Rental Options ───────────────────────────────────────────────────── */}
+      <section className="py-12 md:py-16">
+        <div className="section-container max-w-4xl">
+          <h2 className="mb-8 text-center text-2xl font-extrabold text-[#111827] md:text-3xl">
+            {l.rentalOptions}
+          </h2>
+          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+            {([
+              { label: l.daily, price: equipment.pricingDaily },
+              { label: l.weekly, price: equipment.pricingDaily > 0 ? Math.round(equipment.pricingDaily * 5.5) : 0 },
+              { label: l.monthly, price: equipment.pricingMonthly },
+              { label: l.yearly, price: 0 },
+            ] as { label: string; price: number }[]).map(({ label, price }) => (
+              <div key={label} className="rounded-2xl border border-slate-100 bg-white p-5 text-center shadow-soft">
+                <p className="mb-2 text-sm font-bold text-[#6B7280]">{label}</p>
+                {price > 0 ? (
+                  <p className="text-2xl font-extrabold text-[#06281A]">
+                    {price.toLocaleString()}
+                    <span className="mr-1 text-sm font-normal text-[#6B7280]"> {l.sar}</span>
+                  </p>
+                ) : (
+                  <p className="text-sm font-bold text-[#00A651]">
+                    {isAr ? "تواصل معنا" : "Contact Us"}
+                  </p>
+                )}
+              </div>
+            ))}
+          </div>
+          <p className="mt-4 text-center text-xs text-[#6B7280]">{l.rentalContact}</p>
+        </div>
+      </section>
 
       {/* ── FAQ ──────────────────────────────────────────────────────────────── */}
       <section className="py-12 md:py-16">
