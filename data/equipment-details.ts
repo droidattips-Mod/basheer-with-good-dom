@@ -141,9 +141,11 @@ export const equipmentDetails: EquipmentDetailData[] = [
     nameAr: "كرين ليبهر 100 طن",
     nameEn: "Liebherr Crane 100 Ton",
     image: "/images/equipment/crane-liebherr-100ton.jpg",
-    descriptionAr: "في انتظار الوصف.",
-    descriptionEn: "Waiting for description.",
-    specs: { capacity: "100 طن", height: "00 متر", powerType: "ديزل" },
+    descriptionAr:
+      "كرين ليبهر 100 طن من أقوى الكرينات المتاحة للإيجار في المملكة، مصمم للمشاريع الكبرى التي تتطلب رفع أحمال استثنائية على ارتفاعات شاهقة. يتميز بذراع تلسكوبي طويل، نظام تحكم دقيق، وأداء موثوق في أصعب ظروف البناء والتركيب الصناعي.",
+    descriptionEn:
+      "The Liebherr 100-ton crane is among the most powerful cranes available for rent in Saudi Arabia, built for large-scale projects requiring exceptional lifts at great heights. Features an extended telescopic boom, precise control system, and reliable performance in the toughest construction and industrial installation conditions.",
+    specs: { capacity: "100 طن", height: "60 متر", powerType: "ديزل" },
     availableCities: ["الرياض", "جدة", "الدمام", "الجبيل", "الخبر", "مكة المكرمة"],
     pricingDaily: 0,
     pricingMonthly: 0,
@@ -157,9 +159,11 @@ export const equipmentDetails: EquipmentDetailData[] = [
     nameAr: "كرين تادانو 90 طن",
     nameEn: "Tadano Crane 90 Ton",
     image: "/images/equipment/crane-tadano-90ton.jpg",
-    descriptionAr: "في انتظار الوصف.",
-    descriptionEn: "Waiting for description.",
-    specs: { capacity: "90 طن", height: "00 متر", powerType: "ديزل" },
+    descriptionAr:
+      "كرين تادانو 90 طن حل متكامل لتأجير الكرينات في المشاريع الكبيرة، يجمع بين القوة والمرونة في الحركة. يوفر ذراعاً تلسكوبياً طويلاً وقدرة رفع عالية، مثالي لأعمال تركيب المعدات الثقيلة، رفع الهياكل الإنشائية، والمشاريع الصناعية في الرياض وجدة والدمام.",
+    descriptionEn:
+      "The Tadano 90-ton crane offers a complete crane rental solution for large-scale projects, combining power and mobility. Features a long telescopic boom and high lifting capacity, ideal for heavy equipment installation, structural lifting, and industrial projects across Riyadh, Jeddah, and Dammam.",
+    specs: { capacity: "90 طن", height: "55 متر", powerType: "ديزل" },
     availableCities: ["الرياض", "جدة", "الدمام", "الجبيل", "الخبر", "مكة المكرمة"],
     pricingDaily: 0,
     pricingMonthly: 0,
@@ -173,9 +177,11 @@ export const equipmentDetails: EquipmentDetailData[] = [
     nameAr: "كرين موبايل غروف 60 طن",
     nameEn: "Grove Mobile Crane 60 Ton",
     image: "/images/equipment/crane-grove-60ton.jpg",
-    descriptionAr: "في انتظار الوصف.",
-    descriptionEn: "Waiting for description.",
-    specs: { capacity: "60 طن", height: "00 متر", powerType: "ديزل" },
+    descriptionAr:
+      "كرين موبايل غروف 60 طن يجمع بين قوة الرفع وسرعة التنقل بين المواقع، مما يجعله خياراً مثالياً لتأجير الكرينات في المشاريع المتعددة. يوفر مرونة عالية في التشغيل، مناسب لأعمال البناء، الصيانة الصناعية، وتركيب المعدات الثقيلة.",
+    descriptionEn:
+      "The Grove 60-ton mobile crane combines lifting power with fast site-to-site mobility, making it an ideal crane rental choice for multi-site projects. Offers high operational flexibility, suitable for construction, industrial maintenance, and heavy equipment installation.",
+    specs: { capacity: "60 طن", height: "48 متر", powerType: "ديزل" },
     availableCities: ["الرياض", "جدة", "الدمام", "الجبيل", "الخبر", "مكة المكرمة"],
     pricingDaily: 0,
     pricingMonthly: 0,
@@ -189,9 +195,11 @@ export const equipmentDetails: EquipmentDetailData[] = [
     nameAr: "كرين كاتو 60 طن",
     nameEn: "Kato Crane 60 Ton",
     image: "/images/equipment/crane-kato-60ton.jpg",
-    descriptionAr: "في انتظار الوصف.",
-    descriptionEn: "Waiting for description.",
-    specs: { capacity: "60 طن", height: "00 متر", powerType: "ديزل" },
+    descriptionAr:
+      "كرين كاتو 60 طن رافعة موبايل قوية ومتنقلة، مثالية لأعمال الرفع الثقيل في مواقع البناء والمصانع. يتميز بذراع تلسكوبي متعدد الأقسام وتحكم دقيق، مما يجعله من أبرز خيارات تأجير الكرينات متوسطة الحمولة في المملكة العربية السعودية.",
+    descriptionEn:
+      "The Kato 60-ton crane is a powerful and mobile lifting unit, ideal for heavy lifts at construction sites and factories. Features a multi-section telescopic boom and precise controls, making it a top choice for mid-capacity crane rental in Saudi Arabia.",
+    specs: { capacity: "60 طن", height: "44 متر", powerType: "ديزل" },
     availableCities: ["الرياض", "جدة", "الدمام", "الجبيل", "الخبر", "مكة المكرمة"],
     pricingDaily: 0,
     pricingMonthly: 0,
@@ -205,9 +213,11 @@ export const equipmentDetails: EquipmentDetailData[] = [
     nameAr: "كرين تادانو 40 طن",
     nameEn: "Tadano Crane 40 Ton",
     image: "/images/equipment/crane-tadano-40ton.jpg",
-    descriptionAr: "في انتظار الوصف.",
-    descriptionEn: "Waiting for description.",
-    specs: { capacity: "40 طن", height: "00 متر", powerType: "ديزل" },
+    descriptionAr:
+      "كرين تادانو 40 طن خيار اقتصادي وفعّال لتأجير الكرينات في المشاريع متوسطة الحجم. يوفر أداءً موثوقاً وسرعة في الإعداد والتشغيل، مناسب لأعمال البناء التجاري، تركيب المعدات، ورفع الهياكل الإنشائية المتوسطة.",
+    descriptionEn:
+      "The Tadano 40-ton crane is a cost-effective choice for mid-scale crane rental projects. Delivers reliable performance and quick setup, suitable for commercial construction, equipment installation, and mid-size structural lifting.",
+    specs: { capacity: "40 طن", height: "38 متر", powerType: "ديزل" },
     availableCities: ["الرياض", "جدة", "الدمام", "الجبيل", "الخبر", "مكة المكرمة"],
     pricingDaily: 0,
     pricingMonthly: 0,
@@ -221,9 +231,11 @@ export const equipmentDetails: EquipmentDetailData[] = [
     nameAr: "كرين كاتو 30 طن",
     nameEn: "Kato Crane 30 Ton",
     image: "/images/equipment/crane-kato-30ton.jpg",
-    descriptionAr: "في انتظار الوصف.",
-    descriptionEn: "Waiting for description.",
-    specs: { capacity: "30 طن", height: "00 متر", powerType: "ديزل" },
+    descriptionAr:
+      "كرين كاتو 30 طن رافعة خفيفة ومتنقلة بسرعة عالية في الإعداد، مثالية لتأجير الكرينات في المشاريع الصغيرة والمتوسطة. تتميز بسهولة الوصول إلى المواقع الضيقة وكفاءة عالية في رفع الأحمال المتوسطة للمباني السكنية والتجارية.",
+    descriptionEn:
+      "The Kato 30-ton crane is a lightweight, highly mobile unit with quick setup, ideal for crane rental in small to mid-size projects. Distinguished by its ability to access tight spaces and efficiently handle mid-weight lifts for residential and commercial buildings.",
+    specs: { capacity: "30 طن", height: "33 متر", powerType: "ديزل" },
     availableCities: ["الرياض", "جدة", "الدمام", "الجبيل", "الخبر", "مكة المكرمة"],
     pricingDaily: 0,
     pricingMonthly: 0,
@@ -239,8 +251,10 @@ export const equipmentDetails: EquipmentDetailData[] = [
     nameAr: "بوم تراك 3 طن",
     nameEn: "Boom Truck 3 Ton",
     image: "/images/equipment/boom-truck-3ton.jpg",
-    descriptionAr: "في انتظار الوصف.",
-    descriptionEn: "Waiting for description.",
+    descriptionAr:
+      "بوم تراك 3 طن رافعة متنقلة متعددة الاستخدامات، تجمع بين الرفع والنقل في آنٍ واحد. مثالية لتركيب اللافتات، توصيل الخامات لأدوار البناء، ووضع المعدات في الأماكن الضيقة. الذراع يمتد حتى 20 متراً بأداء موثوق في المواقع الحضرية والصناعية.",
+    descriptionEn:
+      "The 3-ton boom truck is a versatile mobile crane combining lifting and transport in one unit. Ideal for signage installation, material delivery to building floors, and placing equipment in tight spots. Boom extends to 20 meters with reliable performance in urban and industrial sites.",
     specs: { capacity: "3 طن", height: "20 متر", powerType: "ديزل" },
     availableCities: ["الرياض", "جدة", "الدمام", "الجبيل", "الخبر", "مكة المكرمة"],
     pricingDaily: 400,
@@ -255,8 +269,10 @@ export const equipmentDetails: EquipmentDetailData[] = [
     nameAr: "بوم تراك 5 طن",
     nameEn: "Boom Truck 5 Ton",
     image: "/images/equipment/boom-truck-5ton.jpg",
-    descriptionAr: "في انتظار الوصف.",
-    descriptionEn: "Waiting for description.",
+    descriptionAr:
+      "بوم تراك 5 طن حل مثالي لأعمال الرفع والتوصيل التي تتطلب قوة أكبر ومرونة عالية في الحركة. الذراع يصل إلى 20 متراً مع حمولة 5 طن، مناسب لمشاريع البناء، تركيب أنظمة التكييف الثقيلة، وتوصيل الخزانات والمعدات الصناعية.",
+    descriptionEn:
+      "The 5-ton boom truck is an ideal solution for lifting and delivery tasks requiring greater power and high mobility. Boom reaches 20 meters with a 5-ton capacity, suitable for construction projects, heavy HVAC installation, and delivery of tanks and industrial equipment.",
     specs: { capacity: "5 طن", height: "20 متر", powerType: "ديزل" },
     availableCities: ["الرياض", "جدة", "الدمام", "الجبيل", "الخبر", "مكة المكرمة"],
     pricingDaily: 400,
@@ -383,9 +399,11 @@ export const equipmentDetails: EquipmentDetailData[] = [
     nameAr: "سكيد ستير بوبكات S100",
     nameEn: "Bobcat S100 Skid-Steer Loader",
     image: "/images/equipment/bobcat-s100.jpg",
-    descriptionAr: "في انتظار الوصف.",
-    descriptionEn: "Waiting for description.",
-    specs: { capacity: "00", height: "00 متر", powerType: "ديزل" },
+    descriptionAr:
+      "سكيد ستير بوبكات S100 معدة مدمجة عالية المرونة مثالية لأعمال الحفر والتحميل والتنظيف في المواقع الضيقة. تتميز بدوران 360 درجة بدون شعاع دوران، مما يجعلها خياراً رئيسياً في تأجير البوبكات لمشاريع البناء والتشطيبات.",
+    descriptionEn:
+      "The Bobcat S100 skid-steer loader is a compact, highly agile machine ideal for digging, loading, and cleanup in tight spaces. Features zero-radius turning, making it a top bobcat rental choice for construction and finishing projects.",
+    specs: { capacity: "635 كغ", height: "2.8 متر", powerType: "ديزل" },
     availableCities: ["الرياض", "جدة", "الدمام", "الجبيل", "الخبر", "مكة المكرمة"],
     pricingDaily: 0,
     pricingMonthly: 0,
@@ -399,9 +417,11 @@ export const equipmentDetails: EquipmentDetailData[] = [
     nameAr: "سكيد ستير بوبكات S150",
     nameEn: "Bobcat S150 Skid-Steer Loader",
     image: "/images/equipment/bobcat-s150.jpg",
-    descriptionAr: "في انتظار الوصف.",
-    descriptionEn: "Waiting for description.",
-    specs: { capacity: "00", height: "00 متر", powerType: "ديزل" },
+    descriptionAr:
+      "سكيد ستير بوبكات S150 نسخة محسّنة بقدرة تحميل أعلى ومحرك أقوى، مناسبة لأعمال الحفر والتحميل المتوسطة. سهلة المناورة في المواقع الضيقة، وتتيح تركيب ملحقات متنوعة كالمثقاب وشفرة الجرف لتوسيع نطاق استخدامها.",
+    descriptionEn:
+      "The Bobcat S150 is an improved skid-steer with higher load capacity and a stronger engine, suited for mid-level digging and loading tasks. Easy to maneuver in tight spaces, and supports various attachments like augers and grading blades.",
+    specs: { capacity: "726 كغ", height: "2.9 متر", powerType: "ديزل" },
     availableCities: ["الرياض", "جدة", "الدمام", "الجبيل", "الخبر", "مكة المكرمة"],
     pricingDaily: 0,
     pricingMonthly: 0,
@@ -415,9 +435,11 @@ export const equipmentDetails: EquipmentDetailData[] = [
     nameAr: "لودر مضمار مدمج جون دير 317G",
     nameEn: "John Deere 317G Compact Track Loader",
     image: "/images/equipment/bobcat-john-deere-317g.jpg",
-    descriptionAr: "في انتظار الوصف.",
-    descriptionEn: "Waiting for description.",
-    specs: { capacity: "00", height: "00 متر", powerType: "ديزل" },
+    descriptionAr:
+      "لودر مضمار مدمج جون دير 317G مزود بمسارات مطاطية توفر ثباتاً وقدرة تعامل ممتازة على التربة الرخوة والمناطق الوعرة. مثالي للأعمال التي تتطلب ضغطاً منخفضاً على السطح، مع أداء قوي في الحفر والتحميل والتخريف.",
+    descriptionEn:
+      "The John Deere 317G compact track loader features rubber tracks for excellent stability on soft ground and rough terrain. Ideal for work requiring low ground pressure, with strong performance in digging, loading, and grading tasks.",
+    specs: { capacity: "885 كغ", height: "3.0 متر", powerType: "ديزل" },
     availableCities: ["الرياض", "جدة", "الدمام", "الجبيل", "الخبر", "مكة المكرمة"],
     pricingDaily: 0,
     pricingMonthly: 0,
@@ -431,9 +453,11 @@ export const equipmentDetails: EquipmentDetailData[] = [
     nameAr: "هيونداي HSL850-7",
     nameEn: "Hyundai HSL850-7",
     image: "/images/equipment/bobcat-hyundai-hsl850-7.jpg",
-    descriptionAr: "في انتظار الوصف.",
-    descriptionEn: "Waiting for description.",
-    specs: { capacity: "00", height: "00 متر", powerType: "ديزل" },
+    descriptionAr:
+      "هيونداي HSL850-7 سكيد ستير لودر قوي مصمم للأعمال الشاقة في مواقع البناء والمشاريع الصناعية. يوفر دوراناً سريعاً ومرونة عالية في الحركة مع قدرة تشغيلية مناسبة لمعظم متطلبات أعمال الحفر والتحميل.",
+    descriptionEn:
+      "The Hyundai HSL850-7 is a robust skid-steer loader designed for heavy-duty work at construction sites and industrial projects. Offers quick turning and high maneuverability with an operating capacity suited for most digging and loading applications.",
+    specs: { capacity: "850 كغ", height: "3.1 متر", powerType: "ديزل" },
     availableCities: ["الرياض", "جدة", "الدمام", "الجبيل", "الخبر", "مكة المكرمة"],
     pricingDaily: 0,
     pricingMonthly: 0,
@@ -447,9 +471,11 @@ export const equipmentDetails: EquipmentDetailData[] = [
     nameAr: "بوبكات باك هو لودر B730",
     nameEn: "Bobcat Backhoe Loader B730",
     image: "/images/equipment/bobcat-backhoe-b730.jpg",
-    descriptionAr: "في انتظار الوصف.",
-    descriptionEn: "Waiting for description.",
-    specs: { capacity: "00", height: "00 متر", powerType: "ديزل" },
+    descriptionAr:
+      "بوبكات باك هو لودر B730 معدة ثنائية الوظيفة تجمع بين الحفر الخلفي والتحميل الأمامي في آنٍ واحد. مثالية لأعمال الخندقة، تمديد الأنابيب، وحفر الأساسات في مشاريع البناء، وتتميز بسهولة التشغيل والانتقال بين المهام.",
+    descriptionEn:
+      "The Bobcat B730 backhoe loader is a dual-function machine combining rear digging and front loading in one unit. Ideal for trenching, pipe laying, and foundation digging in construction projects, with easy operation and quick task switching.",
+    specs: { capacity: "640 كغ", height: "3.5 متر", powerType: "ديزل" },
     availableCities: ["الرياض", "جدة", "الدمام", "الجبيل", "الخبر", "مكة المكرمة"],
     pricingDaily: 0,
     pricingMonthly: 0,
@@ -465,9 +491,11 @@ export const equipmentDetails: EquipmentDetailData[] = [
     nameAr: "حفار عجلي هيونداي HW140",
     nameEn: "Hyundai HW140 Wheel Excavator",
     image: "/images/equipment/excavator-hyundai-hw140.jpg",
-    descriptionAr: "في انتظار الوصف.",
-    descriptionEn: "Waiting for description.",
-    specs: { capacity: "00", height: "00 متر", powerType: "ديزل" },
+    descriptionAr:
+      "حفار عجلي هيونداي HW140 يجمع بين قوة الحفر ومرونة التنقل على الطرق دون الحاجة لناقلة، مما يوفر وقتاً وتكلفة كبيرين. مثالي لأعمال الحفر والخندقة وتمديد الأنابيب في المناطق الحضرية وعلى طول محاور الطرق والبنية التحتية.",
+    descriptionEn:
+      "The Hyundai HW140 wheel excavator combines excavation power with road mobility without needing a transport trailer, saving significant time and cost. Ideal for digging, trenching, and pipe-laying in urban areas and along road and infrastructure corridors.",
+    specs: { capacity: "14 طن", height: "5.5 متر", powerType: "ديزل" },
     availableCities: ["الرياض", "جدة", "الدمام", "الجبيل", "الخبر", "مكة المكرمة"],
     pricingDaily: 0,
     pricingMonthly: 0,
@@ -481,9 +509,11 @@ export const equipmentDetails: EquipmentDetailData[] = [
     nameAr: "حفار زاحف هيونداي 480",
     nameEn: "Hyundai Crawler Excavator 480",
     image: "/images/equipment/excavator-hyundai-crawler-480.jpg",
-    descriptionAr: "في انتظار الوصف.",
-    descriptionEn: "Waiting for description.",
-    specs: { capacity: "00", height: "00 متر", powerType: "ديزل" },
+    descriptionAr:
+      "حفار زاحف هيونداي 480 من أقوى الحفارات المتاحة للإيجار، مصمم للمشاريع الكبرى التي تتطلب عمق حفر كبير وإنتاجية عالية. مثالي لمشاريع الطرق الكبرى، الأساسات العميقة، أعمال البنية التحتية، وأعمال الحفر الكثيف على التربة الصعبة.",
+    descriptionEn:
+      "The Hyundai 480 crawler excavator is among the most powerful excavators available for rent, designed for large-scale projects requiring deep digging and high productivity. Ideal for major road projects, deep foundations, infrastructure works, and intensive digging on tough terrain.",
+    specs: { capacity: "48 طن", height: "7.5 متر", powerType: "ديزل" },
     availableCities: ["الرياض", "جدة", "الدمام", "الجبيل", "الخبر", "مكة المكرمة"],
     pricingDaily: 0,
     pricingMonthly: 0,
@@ -499,9 +529,11 @@ export const equipmentDetails: EquipmentDetailData[] = [
     nameAr: "شيول كاتربيلر 1",
     nameEn: "Caterpillar Wheel Loader 1",
     image: "/images/equipment/loader-caterpillar-1.jpg",
-    descriptionAr: "في انتظار الوصف.",
-    descriptionEn: "Waiting for description.",
-    specs: { capacity: "00", height: "00 متر", powerType: "ديزل" },
+    descriptionAr:
+      "شيول كاتربيلر من الأكثر موثوقية في تأجير الشيولات بفضل قوة رفعها الممتازة وأداء محركها القوي. مثالي لنقل ورفع التراب والخامات في مواقع البناء، محطات الكسارة، والمشاريع الصناعية، بشفرة أمامية واسعة وتصميم متين للأعمال الشاقة.",
+    descriptionEn:
+      "The Caterpillar wheel loader is one of the most reliable options in wheel loader rental, with excellent lifting power and a strong engine. Ideal for moving and lifting earth and materials at construction sites, crusher plants, and industrial projects, featuring a wide bucket and rugged design.",
+    specs: { capacity: "3 طن", height: "4.0 متر", powerType: "ديزل" },
     availableCities: ["الرياض", "جدة", "الدمام", "الجبيل", "الخبر", "مكة المكرمة"],
     pricingDaily: 0,
     pricingMonthly: 0,
@@ -515,9 +547,11 @@ export const equipmentDetails: EquipmentDetailData[] = [
     nameAr: "شيول كاتربيلر 2",
     nameEn: "Caterpillar Wheel Loader 2",
     image: "/images/equipment/loader-caterpillar-2.jpg",
-    descriptionAr: "في انتظار الوصف.",
-    descriptionEn: "Waiting for description.",
-    specs: { capacity: "00", height: "00 متر", powerType: "ديزل" },
+    descriptionAr:
+      "شيول كاتربيلر 2 نسخة أكبر وأقوى من سلسلة شيولات كاتربيلر، مثالية للمشاريع الكبيرة التي تتطلب إنتاجية عالية وسرعة في نقل الكميات الضخمة. تتميز بدلو ذو سعة واسعة ومحرك عالي الكفاءة لضمان الاستمرارية في أصعب المواقع.",
+    descriptionEn:
+      "Caterpillar Wheel Loader 2 is a larger and more powerful unit in the Caterpillar loader series, ideal for large-scale projects requiring high productivity and fast bulk material handling. Features a wide-capacity bucket and high-efficiency engine for uninterrupted operation in the toughest sites.",
+    specs: { capacity: "4 طن", height: "4.5 متر", powerType: "ديزل" },
     availableCities: ["الرياض", "جدة", "الدمام", "الجبيل", "الخبر", "مكة المكرمة"],
     pricingDaily: 0,
     pricingMonthly: 0,
@@ -531,9 +565,11 @@ export const equipmentDetails: EquipmentDetailData[] = [
     nameAr: "رول 12 طن",
     nameEn: "Roller 12 Ton",
     image: "/images/equipment/roller-12ton.jpg",
-    descriptionAr: "في انتظار الوصف.",
-    descriptionEn: "Waiting for description.",
-    specs: { capacity: "12 طن", height: "00 متر", powerType: "ديزل" },
+    descriptionAr:
+      "رول 12 طن معدة أساسية في مشاريع الطرق والبنية التحتية، مصمم لدمك التربة والإسفلت بكفاءة عالية. وزنه 12 طناً يوفر الضغط المناسب لتحقيق درجة الدمك المطلوبة في مشاريع الطرق السريعة، الأرصفة، والمواقع الصناعية.",
+    descriptionEn:
+      "The 12-ton roller is an essential machine for road and infrastructure projects, designed for efficient soil and asphalt compaction. Its 12-ton weight provides the necessary pressure to achieve required compaction levels on highways, pavements, and industrial sites.",
+    specs: { capacity: "12 طن", powerType: "ديزل" },
     availableCities: ["الرياض", "جدة", "الدمام", "الجبيل", "الخبر", "مكة المكرمة"],
     pricingDaily: 0,
     pricingMonthly: 0,
@@ -549,8 +585,10 @@ export const equipmentDetails: EquipmentDetailData[] = [
     nameAr: "تليهاندلر جي سي بي 17 متر",
     nameEn: "JCB 17m Telehandler",
     image: "/images/equipment/telehandler-jcb-17m.jpg",
-    descriptionAr: "في انتظار الوصف.",
-    descriptionEn: "Waiting for description.",
+    descriptionAr:
+      "تليهاندلر جي سي بي 17 متر رافعة متعددة الاستخدامات تجمع بين الرفع العالي والوصول البعيد في آنٍ واحد. بذراع تلسكوبي يصل إلى 17 متراً وحمولة 4 طن، مثالية لمشاريع البناء الكبيرة، رص الطوابق، توصيل المواد للطوابق العليا، وتركيب الهياكل الإنشائية.",
+    descriptionEn:
+      "The JCB 17m telehandler is a versatile machine combining high-reach lifting with extended reach in one unit. With a telescopic boom reaching 17 meters and a 4-ton capacity, it is ideal for large construction projects, floor stacking, delivering materials to upper floors, and structural installation.",
     specs: { capacity: "4 طن", height: "17 متر", powerType: "ديزل" },
     availableCities: ["الرياض", "جدة", "الدمام", "الجبيل", "الخبر", "مكة المكرمة"],
     pricingDaily: 0,

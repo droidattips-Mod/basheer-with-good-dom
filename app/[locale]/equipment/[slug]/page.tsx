@@ -44,8 +44,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     : "";
 
   const title = isAr
-    ? `تأجير ${name} | إيجار يومي وشهري - رافعات النصر`
-    : `Rent ${name} | Daily & Monthly Rental - Al Nasr Cranes`;
+    ? `تأجير ${name} | رافعات النصر`
+    : `Rent ${name} | Al Nasr Cranes`;
 
   const description = isAr
     ? `استأجر ${name}${capacityNote}${heightNote} من رافعات النصر. أسعار تنافسية، معدات حديثة، خدمة في جميع مناطق المملكة. اتصل الآن: 0558204317`

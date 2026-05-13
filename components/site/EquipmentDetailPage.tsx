@@ -12,6 +12,41 @@ type Props = {
   related: EquipmentDetailData[];
 };
 
+const USE_CASES: Record<string, { ar: string; en: string }> = {
+  forklifts: {
+    ar: "الرافعات الشوكية تُستخدم على نطاق واسع في تحميل وتفريغ الشاحنات داخل المستودعات والمخازن الكبرى، ونقل البضائع والمواد بين أرجاء المصانع والمرافق الصناعية، ورص الأحمال الثقيلة في ساحات التخزين المفتوحة. تُعدّ الخيار الأمثل لتسريع عمليات اللوجستيات في المنافذ البحرية والبرية، وتركيب الآلات والمعدات الثقيلة في المواقع الصناعية.",
+    en: "Forklifts are widely used for loading and unloading trucks in warehouses, transporting goods and materials across factory floors, and stacking heavy loads in outdoor storage yards. They are the go-to choice for accelerating logistics operations at seaports and land ports, and for installing heavy machinery and equipment at industrial sites.",
+  },
+  cranes: {
+    ar: "تأجير الكرينات يلبي احتياجات مشاريع البناء الكبرى من رفع الهياكل الخرسانية والمعدنية الثقيلة، وتركيب الأبراج والمنشآت الصناعية، ونقل الأحمال الاستثنائية في مصافي النفط والبتروكيماويات. كما تُستخدم في مشاريع تركيب شبكات الطاقة، بناء الجسور، وصيانة البنية التحتية الكبرى على مستوى المملكة.",
+    en: "Crane rental meets the needs of large construction projects requiring heavy structural lifts, installation of towers and industrial facilities, and moving exceptional loads in oil refineries and petrochemical plants. They are also used in power grid installations, bridge construction, and major infrastructure maintenance across Saudi Arabia.",
+  },
+  scissor: {
+    ar: "سيزرلفت تُستخدم لأعمال الصيانة والتركيب على الارتفاعات المتوسطة والعالية في المصانع والمستودعات والمولات التجارية. مثالية لتركيب الإنارة وأنظمة التكييف، طلاء الواجهات، وتركيب الديكورات الداخلية. تتميز بمنصة واسعة تتيح للعمال العمل بأمان على ارتفاعات مختلفة في المواقع الداخلية والخارجية.",
+    en: "Scissor lifts are used for maintenance and installation work at mid and high elevations in factories, warehouses, and commercial malls. Ideal for installing lighting and HVAC systems, painting facades, and fitting interior finishes. A wide platform allows workers to operate safely at various heights in both indoor and outdoor sites.",
+  },
+  "boom-trucks": {
+    ar: "بوم تراك يُستخدم لرفع المواد وتوصيلها لأدوار البناء العليا، تركيب اللافتات والمنشآت المرتفعة، وأعمال الصيانة على خطوط الكهرباء والاتصالات. يُعدّ الخيار المثالي لمشاريع البناء التي تحتاج إلى رافعة متنقلة تجمع بين الرفع والنقل في آنٍ واحد داخل المناطق الحضرية.",
+    en: "Boom trucks are used to lift and deliver materials to upper building floors, install elevated signage and structures, and perform maintenance on power and telecom lines. They are the ideal choice for construction projects needing a mobile crane that combines lifting and transport in one unit within urban areas.",
+  },
+  bobcats: {
+    ar: "تأجير البوبكات يلبي أعمال الحفر والتحميل في المواقع الضيقة، تنظيف المخلفات وأعمال الهدم الصغيرة، وتسوية الأراضي والتخريف في مشاريع التطوير. تُستخدم بشكل واسع في مشاريع التشطيبات والبنية التحتية الصغيرة، وتمديد الأنابيب في المناطق المحدودة المساحة.",
+    en: "Bobcat rental covers digging and loading in tight spaces, clearing debris and minor demolition, and grading land in development projects. Widely used in finishing and small infrastructure projects, pipe laying in space-limited areas, and routine maintenance in residential and commercial complexes.",
+  },
+  excavators: {
+    ar: "تأجير الحفارات ضروري لأعمال حفر الأساسات في المشاريع الإنشائية الكبيرة، تمديد شبكات الصرف الصحي والمياه، والحفر على جوانب الطرق والمحاور الرئيسية. تُستخدم أيضاً في مشاريع استصلاح الأراضي، الحفر الكثيف في المقالع، وتجهيز التربة لمشاريع البنية التحتية الحيوية.",
+    en: "Excavator rental is essential for foundation digging in large construction projects, laying sewer and water networks, and roadside excavation along major highways. Also used for land reclamation, intensive quarry digging, and preparing terrain for critical infrastructure projects.",
+  },
+  loaders: {
+    ar: "تأجير الشيولات يلبي احتياجات نقل وتحميل كميات ضخمة من التراب والرمال والخامات في مواقع البناء والكسارات. تُستخدم في مشاريع الطرق والتسوية، ملء الشاحنات بكميات كبيرة، وتنظيف المواقع بعد أعمال الهدم. الرول 12 طن مخصص لدمك الإسفلت والتربة في مشاريع الطرق والبنية التحتية.",
+    en: "Wheel loader rental meets the needs of moving and loading large volumes of earth, sand, and raw materials at construction sites and crusher plants. Used in road and grading projects, high-volume truck filling, and site cleanup after demolition. The 12-ton roller handles asphalt and soil compaction on road projects.",
+  },
+  telehandlers: {
+    ar: "تأجير تليهاندلر مثالي للوصول إلى الأماكن المرتفعة والبعيدة في مشاريع البناء، رص مواد البناء على الطوابق العليا، توصيل المعدات الثقيلة في المواقع الوعرة، وتركيب الهياكل الجاهزة. يُعدّ الحل الأمثل عند الحاجة لرافعة تجمع بين المرونة العالية والوصول الممتد في نفس المعدة.",
+    en: "Telehandler rental is ideal for reaching high and distant locations on construction sites, stacking building materials on upper floors, delivering heavy equipment across rough terrain, and installing prefabricated structures. The perfect solution when you need a machine combining high flexibility and extended reach in one unit.",
+  },
+};
+
 const labels = {
   ar: {
     available: "متاح",
@@ -35,6 +70,7 @@ const labels = {
     whyUs: "لماذا تستأجر من رافعات النصر؟",
     rentalOptions: "خيارات الإيجار المتاحة",
     rentalContact: "للاستفسار عن الأسعار الأسبوعية والسنوية تواصل معنا مباشرة",
+    useCasesHeading: "الاستخدامات الشائعة",
     whyPoints: [
       "أسطول حديث يخضع للصيانة الدورية المعتمدة",
       "مشغلون مدربون ومعتمدون على أعلى معايير السلامة",
@@ -66,6 +102,7 @@ const labels = {
     whyUs: "Why Rent from Al Nasr Cranes?",
     rentalOptions: "Available Rental Options",
     rentalContact: "Contact us directly for weekly and yearly pricing",
+    useCasesHeading: "Common Uses",
     whyPoints: [
       "Modern fleet with certified periodic maintenance",
       "Trained and certified operators meeting top safety standards",
@@ -214,6 +251,20 @@ export default function EquipmentDetailPage({ locale, equipment, related }: Prop
         </div>
       </section>
 
+      {/* ── Common Uses ──────────────────────────────────────────────────────── */}
+      {USE_CASES[equipment.categoryId] && (
+        <section className="bg-white py-12 md:py-14">
+          <div className="section-container max-w-3xl">
+            <h2 className="mb-5 text-2xl font-extrabold text-[#111827] md:text-3xl">
+              {l.useCasesHeading}
+            </h2>
+            <p className="leading-8 text-[#374151]">
+              {USE_CASES[equipment.categoryId][isAr ? "ar" : "en"]}
+            </p>
+          </div>
+        </section>
+      )}
+
       {/* ── Related Equipment ─────────────────────────────────────────────────── */}
       {related.length > 0 && (
         <section className="bg-white py-12 md:py-16">
@@ -303,9 +354,15 @@ export default function EquipmentDetailPage({ locale, equipment, related }: Prop
                     <span className="mr-1 text-sm font-normal text-[#6B7280]"> {l.sar}</span>
                   </p>
                 ) : (
-                  <p className="text-sm font-bold text-[#00A651]">
+                  <a
+                    href={whatsappHref}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="inline-flex items-center gap-1 text-sm font-bold text-[#00A651] underline-offset-2 hover:underline"
+                  >
+                    <Image src="/whatsapp-icon.svg" alt="" width={14} height={14} />
                     {isAr ? "تواصل معنا" : "Contact Us"}
-                  </p>
+                  </a>
                 )}
               </div>
             ))}
@@ -318,7 +375,14 @@ export default function EquipmentDetailPage({ locale, equipment, related }: Prop
       <section className="py-12 md:py-16">
         <div className="section-container max-w-3xl">
           <div className="mb-8 text-center">
-            <span className="gold-label">{isAr ? "لديك استفسار؟" : "Questions?"}</span>
+            <a
+              href={whatsappHref}
+              target="_blank"
+              rel="noreferrer"
+              className="gold-label cursor-pointer hover:opacity-80 transition-opacity"
+            >
+              {isAr ? "لديك استفسار؟" : "Questions?"}
+            </a>
             <h2 className="mt-3 text-2xl font-extrabold text-[#111827] md:text-3xl">{l.faq}</h2>
           </div>
           <FAQAccordion items={faq} />

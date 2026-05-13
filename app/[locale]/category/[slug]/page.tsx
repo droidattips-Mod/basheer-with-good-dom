@@ -26,6 +26,8 @@ type CategoryInfo = {
   metaTitleEn: string;
   metaDescAr: string;
   metaDescEn: string;
+  keywordsAr: string;
+  keywordsEn: string;
   faqAr: { q: string; a: string }[];
   faqEn: { q: string; a: string }[];
 };
@@ -49,6 +51,8 @@ const CATEGORIES: Record<string, CategoryInfo> = {
       "استأجر رافعة شوكية من رافعات النصر بأسعار تنافسية. أسطول من تويوتا وكوماتسو وميتسوبيشي وليند بطاقات 3-5 طن. خدمة في الرياض وجدة والدمام وجميع مناطق المملكة. اتصل: 0558204317",
     metaDescEn:
       "Rent a forklift from Al Nasr Cranes at competitive prices. Fleet from Toyota, Komatsu, Mitsubishi, and Linde with 3-5 ton capacities. Service in Riyadh, Jeddah, Dammam, and all Saudi regions. Call: 0558204317",
+    keywordsAr: "تأجير رافعات شوكية, رافعة شوكية للإيجار, فوركلفت للإيجار, تويوتا كوماتسو, تأجير معدات السعودية, رافعات النصر",
+    keywordsEn: "forklift rental Saudi Arabia, forklift hire, Toyota Komatsu forklift, warehouse forklift rental, Al Nasr Cranes",
     faqAr: [
       { q: "ما هي طاقات الرافعات الشوكية المتاحة للإيجار؟", a: "نوفر رافعات شوكية بطاقات 3 طن و5 طن من ماركات تويوتا وكوماتسو وميتسوبيشي وليند." },
       { q: "هل تتوفر رافعات شوكية كهربائية للإيجار؟", a: "نعم، لدينا رافعة ليند 5 طن كهربائية مثالية للعمل داخل المستودعات والأماكن المغلقة بدون انبعاثات." },
@@ -79,6 +83,8 @@ const CATEGORIES: Record<string, CategoryInfo> = {
       "استأجر كرين موبايل من رافعات النصر بطاقات 30-100 طن. أسطول من ليبهر وتادانو وغروف وكاتو. خدمة في الرياض وجدة والدمام وجميع مناطق المملكة. اتصل: 0558204317",
     metaDescEn:
       "Rent a mobile crane from Al Nasr Cranes with 30-100 ton capacities. Fleet from Liebherr, Tadano, Grove, and Kato. Service in Riyadh, Jeddah, Dammam, and all Saudi regions. Call: 0558204317",
+    keywordsAr: "تأجير كرينات, كرين للإيجار, كرين موبايل, ليبهر تادانو غروف, تأجير معدات ثقيلة, رافعات النصر",
+    keywordsEn: "crane rental Saudi Arabia, mobile crane hire, Liebherr Tadano Grove Kato, heavy lift crane, Al Nasr Cranes",
     faqAr: [
       { q: "ما هي أكبر طاقة رفع متاحة في الكرينات؟", a: "نوفر كرين ليبهر بطاقة 100 طن وهو أكبر كرين في أسطولنا حالياً." },
       { q: "هل يمكن تأجير الكرين لمشاريع خارج الرياض؟", a: "نعم، نخدم جميع مناطق المملكة العربية السعودية بما فيها جدة والدمام والجبيل ومكة المكرمة." },
@@ -109,6 +115,8 @@ const CATEGORIES: Record<string, CategoryInfo> = {
       "استأجر سيزرلفت من رافعات النصر بارتفاعات 6-18 متر. ماركات JLG وGenie وZoomlion وGTJZ10. كهربائي وديزل. خدمة في جميع مناطق المملكة. اتصل: 0558204317",
     metaDescEn:
       "Rent a scissor lift from Al Nasr Cranes with heights 6-18m. JLG, Genie, Zoomlion, GTJZ10. Electric and diesel. Service across Saudi Arabia. Call: 0558204317",
+    keywordsAr: "تأجير سيزرلفت, سيزرلفت للإيجار, رافعة مقصية, JLG Genie Zoomlion, تأجير معدات الارتفاع, رافعات النصر",
+    keywordsEn: "scissor lift rental Saudi Arabia, aerial work platform hire, JLG Genie Zoomlion, electric scissor lift, Al Nasr Cranes",
     faqAr: [
       { q: "ما الفرق بين السيزرلفت الكهربائي والديزل؟", a: "الكهربائي مثالي للعمل الداخلي لخلوه من الانبعاثات وهدوء تشغيله، بينما الديزل يناسب المواقع الخارجية والبيئات الصعبة ذات الارتفاعات العالية." },
       { q: "ما أقصى ارتفاع يمكن العمل عنده؟", a: "نوفر سيزرلفت JLG/MG ديزل بارتفاع عمل يصل إلى 18 متراً لأعمال الارتفاعات الكبيرة في المواقع الخارجية." },
@@ -139,6 +147,8 @@ const CATEGORIES: Record<string, CategoryInfo> = {
       "استأجر بوم تراك من رافعات النصر بطاقات 3-5 طن وارتفاع 20 متر. خدمة في الرياض وجدة والدمام وجميع مناطق المملكة. اتصل: 0558204317",
     metaDescEn:
       "Rent a boom truck from Al Nasr Cranes with 3-5 ton capacity and 20m height. Service in Riyadh, Jeddah, Dammam, and all Saudi regions. Call: 0558204317",
+    keywordsAr: "تأجير بوم تراك, بوم تراك للإيجار, شاحنة رافعة, رافعة متنقلة, تأجير معدات البناء, رافعات النصر",
+    keywordsEn: "boom truck rental Saudi Arabia, knuckle boom truck hire, mobile crane truck, Al Nasr Cranes",
     faqAr: [
       { q: "ما الفرق بين البوم تراك والكرين الموبايل؟", a: "البوم تراك يجمع بين قدرة الرفع والتنقل على الطرق العامة، بينما الكرين الموبايل يوفر طاقات رفع أعلى بكثير للمشاريع الثقيلة." },
       { q: "ما هي تطبيقات البوم تراك الشائعة؟", a: "يُستخدم في تركيب الأعمدة والمعدات، صيانة خطوط الكهرباء والاتصالات، تحميل وتفريغ البضائع الثقيلة، وأعمال البناء التي تتطلب رفعاً على ارتفاعات متوسطة." },
@@ -167,6 +177,8 @@ const CATEGORIES: Record<string, CategoryInfo> = {
       "استأجر بوبكات من رافعات النصر. سكيد ستير وباك هو لودر من Bobcat وJohn Deere وHyundai. خدمة في جميع مناطق المملكة. اتصل: 0558204317",
     metaDescEn:
       "Rent a bobcat from Al Nasr Cranes. Skid steer and backhoe loaders from Bobcat, John Deere, Hyundai. Service across Saudi Arabia. Call: 0558204317",
+    keywordsAr: "تأجير بوبكات, بوبكات للإيجار, سكيد ستير للإيجار, باك هو لودر, Bobcat John Deere, رافعات النصر",
+    keywordsEn: "bobcat rental Saudi Arabia, skid steer hire, backhoe loader rental, compact loader rental, Al Nasr Cranes",
     faqAr: [
       { q: "ما الفرق بين سكيد ستير وباك هو لودر؟", a: "السكيد ستير مناسب للتحميل والنقل والتسوية، بينما الباك هو لودر يجمع بين التحميل الأمامي والحفر الخلفي في معدة واحدة." },
       { q: "هل البوبكات مناسب للعمل في المناطق السكنية؟", a: "نعم، صغر حجم البوبكات وانخفاض ضجيجه النسبي يجعله مناسباً للعمل بالقرب من المناطق السكنية." },
@@ -189,12 +201,14 @@ const CATEGORIES: Record<string, CategoryInfo> = {
       "توفر شركة رافعات النصر خدمات تأجير البوكلينات (الحفارات) بنوعين رئيسيين: الحفار الزاحف والحفار ذو العجلات من ماركة هيونداي الموثوقة. تُستخدم هذه المعدات في أعمال الحفر والتجريف، مشاريع الصرف الصحي والمياه، الأساسات والإنشاءات الكبرى، التعدين والمقالع، وأعمال تسوية الأراضي. أسطولنا يشمل الحفار الزاحف هيونداي 480 للأعمال الثقيلة والحفار العجلي HW140 للمواقع التي تتطلب حركة وتنقلاً أكبر على الطرق المعبدة.",
     introEn:
       "Al Nasr Cranes offers excavator rental with two main types: crawler and wheeled excavators from the trusted Hyundai brand. Used for excavation and grading, sewage and water projects, large-scale foundations and construction, mining and quarries, and land leveling. Our fleet includes the Hyundai Crawler 480 for heavy-duty work and the wheeled HW140 for sites requiring greater road mobility.",
-    metaTitleAr: "تأجير بوكلينات وحفارات في السعودية | هيونداي - رافعات النصر",
-    metaTitleEn: "Excavator Rental Saudi Arabia | Hyundai - Al Nasr Cranes",
+    metaTitleAr: "تأجير حفارات في السعودية | بوكلين هيونداي - رافعات النصر",
+    metaTitleEn: "Excavator Rental Saudi Arabia | Hyundai Excavator - Al Nasr Cranes",
     metaDescAr:
-      "استأجر بوكلين أو حفار من رافعات النصر. حفار زاحف وعجلي هيونداي. خدمة في جميع مناطق المملكة. اتصل: 0558204317",
+      "استأجر حفار من رافعات النصر. حفار زاحف وعجلي هيونداي. خدمة في جميع مناطق المملكة. اتصل: 0558204317",
     metaDescEn:
       "Rent an excavator from Al Nasr Cranes. Crawler and wheeled Hyundai excavators. Service across Saudi Arabia. Call: 0558204317",
+    keywordsAr: "تأجير حفارات, حفار للإيجار, بوكلين للإيجار, هيونداي حفار, تأجير معدات ثقيلة, رافعات النصر",
+    keywordsEn: "excavator rental Saudi Arabia, crawler excavator hire, wheeled excavator, Hyundai excavator rental, Al Nasr Cranes",
     faqAr: [
       { q: "ما الفرق بين الحفار الزاحف والحفار العجلي؟", a: "الحفار الزاحف يوفر استقراراً أعلى على التضاريس الوعرة وللأعمال الثقيلة، بينما الحفار العجلي أسرع في التنقل بين المواقع على الطرق المعبدة." },
       { q: "ما هي المشاريع التي تحتاج إلى حفار؟", a: "مشاريع الصرف الصحي، أعمال الأساسات، مد خطوط المياه والكهرباء، تجريف الأراضي، والمشاريع الإنشائية الكبرى." },
@@ -223,6 +237,8 @@ const CATEGORIES: Record<string, CategoryInfo> = {
       "استأجر شيول أو رول من رافعات النصر. لودر كاتربيلر ورول 12 طن. خدمة في جميع مناطق المملكة. اتصل: 0558204317",
     metaDescEn:
       "Rent a wheel loader or roller from Al Nasr Cranes. Caterpillar loaders and 12-ton rollers. Service across Saudi Arabia. Call: 0558204317",
+    keywordsAr: "تأجير شيولات, شيول للإيجار, لودر كاتربيلر, رول للإيجار, تأجير معدات البناء, رافعات النصر",
+    keywordsEn: "wheel loader rental Saudi Arabia, Caterpillar loader hire, roller compactor rental, road roller, Al Nasr Cranes",
     faqAr: [
       { q: "ما الفرق بين الشيول والبوبكات؟", a: "الشيول أكبر حجماً وطاقة، مناسب لأعمال التحميل الكبيرة، بينما البوبكات أصغر وأكثر مرونة في المساحات الضيقة." },
       { q: "ما استخدامات رول التسوية؟", a: "يُستخدم في ضغط وتسوية الأسفلت والتربة لإنشاء الطرق، الساحات، والأرضيات المدمجة في المشاريع الإنشائية." },
@@ -251,6 +267,8 @@ const CATEGORIES: Record<string, CategoryInfo> = {
       "استأجر تليهاندلر JCB من رافعات النصر. ارتفاع 17 متر وطاقة 4 طن. خدمة في جميع مناطق المملكة. اتصل: 0558204317",
     metaDescEn:
       "Rent a JCB telehandler from Al Nasr Cranes. 17m height, 4 ton capacity. Service across Saudi Arabia. Call: 0558204317",
+    keywordsAr: "تأجير تليهاندلر, تليهاندلر JCB, رافعة تلسكوبية للإيجار, تأجير معدات البناء, رافعات النصر",
+    keywordsEn: "telehandler rental Saudi Arabia, JCB telehandler hire, telescopic handler rental, reach forklift, Al Nasr Cranes",
     faqAr: [
       { q: "ما هو التليهاندلر وما الفرق بينه وبين الرافعة الشوكية؟", a: "التليهاندلر رافعة تلسكوبية يمكنها الرفع على ارتفاعات كبيرة وإلى مسافات بعيدة، بينما الرافعة الشوكية تعمل بشكل رأسي فقط في مسافات قصيرة." },
       { q: "ما هي تطبيقات التليهاندلر الرئيسية؟", a: "يُستخدم في مشاريع البناء لرفع مواد البناء لطوابق عليا، التركيبات الخارجية، أعمال المزارع الكبيرة، ومشاريع البنية التحتية." },
@@ -288,11 +306,13 @@ export async function generateMetadata({
   const isAr = locale === "ar";
   const title = isAr ? cat.metaTitleAr : cat.metaTitleEn;
   const description = isAr ? cat.metaDescAr : cat.metaDescEn;
+  const keywords = isAr ? cat.keywordsAr : cat.keywordsEn;
   const canonicalUrl = `${baseUrl}/${locale}/category/${slug}`;
 
   return {
     title,
     description,
+    keywords,
     alternates: {
       canonical: canonicalUrl,
       languages: {
