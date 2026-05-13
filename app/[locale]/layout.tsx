@@ -3,6 +3,8 @@ import { notFound } from "next/navigation";
 import { isLocale } from "@/lib/locale";
 import { translations, DISPLAY_EMAIL, DISPLAY_PHONE } from "@/data/content";
 
+const baseUrl = "https://alnasrcranes.vercel.app";
+
 export function generateStaticParams() {
   return [{ locale: "ar" }, { locale: "en" }];
 }
@@ -15,16 +17,30 @@ export async function generateMetadata({
   const { locale } = await params;
   if (!isLocale(locale)) return {};
 
+  // /ar is a duplicate of /; canonical points to root
+  const canonicalUrl = locale === "ar" ? baseUrl : `${baseUrl}/${locale}`;
+
+  const alternates = {
+    canonical: canonicalUrl,
+    languages: {
+      ar: baseUrl,
+      en: `${baseUrl}/en`,
+      "x-default": baseUrl,
+    },
+  };
+
   if (locale === "ar") {
     return {
       title: "رافعات النصر | تأجير رافعات ومعدات ثقيلة",
-      description: `شركة النصر للمقاولات وتأجير الرافعات تقدم حلول تأجير الرافعات والمعدات الثقيلة. الهاتف: ${DISPLAY_PHONE}، البريد: ${DISPLAY_EMAIL}.`
+      description: `شركة النصر للمقاولات وتأجير الرافعات تقدم حلول تأجير الرافعات والمعدات الثقيلة. الهاتف: ${DISPLAY_PHONE}، البريد: ${DISPLAY_EMAIL}.`,
+      alternates,
     };
   }
 
   return {
     title: "Al Nasr Cranes | Light & Heavy Equipment Rental",
-    description: `Al Nasr Cranes provides Light and heavy equipment rental across Saudi Arabia. Phone: ${DISPLAY_PHONE}, email: ${DISPLAY_EMAIL}.`
+    description: `Al Nasr Cranes provides Light and heavy equipment rental across Saudi Arabia. Phone: ${DISPLAY_PHONE}, email: ${DISPLAY_EMAIL}.`,
+    alternates,
   };
 }
 
